@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react_app_loreley/static/css/main.d97821bf.chunk.css",
+    "main.js": "/react_app_loreley/static/js/main.56a5c094.chunk.js",
+    "main.js.map": "/react_app_loreley/static/js/main.56a5c094.chunk.js.map",
+    "runtime-main.js": "/react_app_loreley/static/js/runtime-main.1ddb239d.js",
+    "runtime-main.js.map": "/react_app_loreley/static/js/runtime-main.1ddb239d.js.map",
+    "static/css/2.032730b7.chunk.css": "/react_app_loreley/static/css/2.032730b7.chunk.css",
+    "static/js/2.945b03ce.chunk.js": "/react_app_loreley/static/js/2.945b03ce.chunk.js",
+    "static/js/2.945b03ce.chunk.js.map": "/react_app_loreley/static/js/2.945b03ce.chunk.js.map",
+    "index.html": "/react_app_loreley/index.html",
+    "precache-manifest.0b7d1c3db1e05d482fb59461c8be599e.js": "/react_app_loreley/precache-manifest.0b7d1c3db1e05d482fb59461c8be599e.js",
+    "service-worker.js": "/react_app_loreley/service-worker.js",
+    "static/css/2.032730b7.chunk.css.map": "/react_app_loreley/static/css/2.032730b7.chunk.css.map",
+    "static/css/main.d97821bf.chunk.css.map": "/react_app_loreley/static/css/main.d97821bf.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ddb239d.js",
+    "static/css/2.032730b7.chunk.css",
+    "static/js/2.945b03ce.chunk.js",
+    "static/css/main.d97821bf.chunk.css",
+    "static/js/main.56a5c094.chunk.js"
+  ]
+}

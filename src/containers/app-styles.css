@@ -1,0 +1,26 @@
+
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+body {
+    background: white;
+    padding: 0 16px;
+  }
+
+/* default page style*/ 
+.defaultsite {
+    margin: 3%;
+    padding: 2%;
+   
+}
+
+.defaultsite h1 {
+    text-align: center;
+}
+
+/* Images */
+.titleimage {
+    width: 94%;
+    height: auto;
+    margin: 3%;
+}

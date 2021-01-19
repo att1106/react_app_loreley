@@ -1,0 +1,42 @@
+{
+  "name": "leonhard-website",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "http://att1106.github.io/react_app_loreley",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bootstrap": "^4.5.3",
+    "react": "16.8.6",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "16.8.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "typescript": "3.3.3",
+    "url-loader": "^4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

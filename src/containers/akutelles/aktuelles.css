@@ -1,0 +1,9 @@
+.oeffnungszeiten {
+    text-align: center;
+}
+
+#aktuelles, #termine, #oeffnungszeiten{
+    background-color:  #dddddd;
+    margin: 15px;
+    padding: 15px 15px;
+}

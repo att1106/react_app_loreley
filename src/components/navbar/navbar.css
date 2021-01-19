@@ -1,0 +1,16 @@
+/* Navbar */
+.headnavbar {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .navbarlink {
+    color: black; 
+    margin-left: 8%;
+    margin-right: 8%;
+  }
