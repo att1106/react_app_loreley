@@ -7,7 +7,7 @@ const Geschichte = () => (
     <div className="geschichte defaultsite">
 
         <ImageImport
-            img="/img/Weingut_Geschichte_Titelbild.jpeg"
+            img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Titelbild.jpeg"}
             alt="Geschichte"
             className="titleimage"
         />

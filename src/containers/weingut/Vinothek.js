@@ -31,7 +31,7 @@ const Vinothek = () => (
 
             <div className="container_image">
                 <ImageImport
-                    img="/img/Weingut_Vinothek_Titelbild.jpeg"
+                    img={process.env.PUBLIC_URL + "/img/Weingut_Vinothek_Titelbild.jpeg"}
                     alt="Weingut_Vinothek"
                     className="vinothek_image"
                 />
