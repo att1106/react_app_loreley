@@ -18,18 +18,18 @@ import Geschichte from "./weingut/Geschichte";
 function App() {
   return (
     <div>
-    <HashRouter basename={process.env.PUBLIC_URL}>
+   
       <Header />
       <Switch>
       
-      <Route exact path="/" component={Aktuelles} />
-      {/* <Route path="/home" component={Aktuelles} /> */}
+      {/* <Route exact path="/" component={Aktuelles} /> */}
+      <Route path="/home" component={Aktuelles} />
       <Route path="/weingut" exact component={Weingut_main} />
       
 
       </Switch>
       <Footer />
-      </HashRouter>
+
     </div>
   );
 }
