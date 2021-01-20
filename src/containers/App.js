@@ -22,8 +22,8 @@ function App() {
       <Header />
       <Switch>
       
-      <Route path="/" component={Aktuelles} exact/>
-      <Route path="/home" component={Aktuelles} exact/>
+      <Route path="/" component={Aktuelles} />
+      {/* <Route path="/home" component={Aktuelles} /> */}
       <Route path="/weingut" exact component={Weingut_main} />
       
 
