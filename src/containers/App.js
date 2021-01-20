@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Switch>
       
-      <Route path="/" component={Aktuelles} />
+      <Route path="/home" component={Aktuelles} />
       {/* <Route path="/home" component={Aktuelles} /> */}
       <Route path="/weingut" exact component={Weingut_main} />
       
