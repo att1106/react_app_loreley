@@ -1,8 +1,8 @@
 import React from "react";
 
-const Termine = () => (
-
-    <div className="aktuelleseite" id="termine">
+const Termine = () => {
+    return (
+        <div className="aktuelleseite" id="termine">
 
             <h1>Termine</h1>
             <p>
@@ -19,7 +19,8 @@ const Termine = () => (
         </p>
 
 
-    </div>
-)
+        </div>
+    );
+}
 
 export default Termine;

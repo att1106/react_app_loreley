@@ -1,23 +1,20 @@
 import React from "react";
-
 import ImageImport from "../../components/structure/ImageImport";
 
-const XXX = () => {
+
+const Start = () => {
+
     return (
         <div className="defaultsite">
 
             <ImageImport
-                img="/img/XXX"
-                alt="XXX"
-                className="XXX"
+                img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpg"}
+                alt="Startseite"
+                className="titleimage"
             />
-            <h1>XXX</h1>
-            <p>
-                XXX
-        </p>
 
         </div>
     );
 }
 
-export default XXX;
+export default Start;

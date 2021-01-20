@@ -13,7 +13,7 @@ import Footer from "../components/footer/Footer";
 import Aktuelles from "./akutelles/Aktuelles";
 // Weingut
 import Weingut_main from "./weingut/Weingut_main";
-import Geschichte from "./weingut/Geschichte";
+import Start from "./start/Start";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Switch>
       
-      {/* <Route exact path="/" component={Aktuelles} /> */}
+      <Route exact path="/" component={Start} /> 
       <Route path="/home" component={Aktuelles} />
       <Route path="/weingut" exact component={Weingut_main} />
       
