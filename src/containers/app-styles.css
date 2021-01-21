@@ -7,6 +7,10 @@ body {
     padding: 0 16px;
   }
 
+.container-header {
+  margin-bottom: 2%;
+}
+
 /* default page style*/ 
 .defaultsite {
     margin: 3%;
@@ -23,4 +27,5 @@ body {
     width: 94%;
     height: auto;
     margin: 3%;
+    padding-top: 3%;
 }
