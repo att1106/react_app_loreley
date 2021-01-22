@@ -2,11 +2,12 @@
 .headnavbar {
     display: flex;
     align-items: baseline;
+    justify-content: center;
     width: 80%;
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
     font-size: large;
     font-weight: bold;
     
@@ -23,9 +24,5 @@
   }
 
   .headnavbar.navelement{
-    margin-left: 1%;
-    margin-right: 1%;
-    justify-content: center;
-
-   
+ 
   }

@@ -24,18 +24,18 @@ function App() {
         <Header />
       </Container>
 
-      <Container>
+    
 
 
         <Switch>
 
           <Route exact path="/" component={Start} />
-          <Route path="/home" component={Aktuelles} />
-          <Route path="/weingut" exact component={Weingut_main} />
+          <Route exact path="/home" component={Aktuelles} />
+          <Route exact path="/weingut" exact component={Weingut_main} />
 
 
         </Switch>
-      </Container>
+    
       <Footer />
 
     </div>

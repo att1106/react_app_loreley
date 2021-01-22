@@ -10,15 +10,16 @@ import "./weingut.css"
 
 
 
-const Weingut_main = () => (
-
-    <div>
-        <Weingut/>
-        <Geschichte/>
-        <Weinberge />
-        <Keller />
-        <Vinothek />
-    </div>
-)
+const Weingut_main = () => {
+    return (
+        <div>
+            <Weingut />
+            <Geschichte />
+            <Weinberge />
+            <Keller />
+            <Vinothek />
+        </div>
+    );
+}
 
 export default Weingut_main;
