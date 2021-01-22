@@ -8,7 +8,7 @@ const Start = () => {
         <div className="defaultsite">
 
             <ImageImport
-                img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpg"}
+                img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpeg"}
                 alt="Startseite"
                 className="titleimage"
             />
