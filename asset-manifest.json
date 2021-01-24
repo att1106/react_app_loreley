@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_app_loreley/static/css/main.edd492d6.chunk.css",
-    "main.js": "/react_app_loreley/static/js/main.dbdfe158.chunk.js",
-    "main.js.map": "/react_app_loreley/static/js/main.dbdfe158.chunk.js.map",
+    "main.css": "/react_app_loreley/static/css/main.09f4f0c7.chunk.css",
+    "main.js": "/react_app_loreley/static/js/main.f45485db.chunk.js",
+    "main.js.map": "/react_app_loreley/static/js/main.f45485db.chunk.js.map",
     "runtime-main.js": "/react_app_loreley/static/js/runtime-main.3127099c.js",
     "runtime-main.js.map": "/react_app_loreley/static/js/runtime-main.3127099c.js.map",
     "static/css/2.7dbf001f.chunk.css": "/react_app_loreley/static/css/2.7dbf001f.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.61e2a82d.chunk.js.map": "/react_app_loreley/static/js/2.61e2a82d.chunk.js.map",
     "index.html": "/react_app_loreley/index.html",
     "static/css/2.7dbf001f.chunk.css.map": "/react_app_loreley/static/css/2.7dbf001f.chunk.css.map",
-    "static/css/main.edd492d6.chunk.css.map": "/react_app_loreley/static/css/main.edd492d6.chunk.css.map",
+    "static/css/main.09f4f0c7.chunk.css.map": "/react_app_loreley/static/css/main.09f4f0c7.chunk.css.map",
     "static/js/2.61e2a82d.chunk.js.LICENSE.txt": "/react_app_loreley/static/js/2.61e2a82d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3127099c.js",
     "static/css/2.7dbf001f.chunk.css",
     "static/js/2.61e2a82d.chunk.js",
-    "static/css/main.edd492d6.chunk.css",
-    "static/js/main.dbdfe158.chunk.js"
+    "static/css/main.09f4f0c7.chunk.css",
+    "static/js/main.f45485db.chunk.js"
   ]
 }
