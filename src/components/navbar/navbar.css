@@ -18,6 +18,10 @@
     margin-right: 8%;
   }
 
+  .navbarlink.nav-link.weine {
+    padding-right: 2rem;
+  }
+
   .nav-logo {
     margin-top: 0;
     padding-top: 0;

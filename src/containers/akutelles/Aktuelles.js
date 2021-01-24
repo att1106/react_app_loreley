@@ -11,8 +11,8 @@ const Aktuelles = () => {
         <div className="defaultsite" id="aktuelles">
 
             <ImageImport
-                img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpeg"}
-                alt="Startseite"
+                img={process.env.PUBLIC_URL + "/img/Home_Titelbild.jpg"}
+                alt="Home_Titelbild"
                 className="titleimage"
             />
             <div id="aktuelles-text">

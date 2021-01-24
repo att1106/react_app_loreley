@@ -24,18 +24,28 @@
     flex-wrap : wrap;
     /* border: 3px solid black; */
     max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     justify-content : space-between;
     align-items : flex-start;
-   
-    
 }
 .container_image {
     /* border: 3px solid blue; */
     width: 40%;
     max-width: 60%;
     margin: 10px;
-    margin-right: 0;
+   
 }
+
+.container_text {
+    /* border: 3px solid red; */
+    width: 40%;
+    max-width: 50%;
+    margin: 10px;
+
+}
+
+/* Geschichte  */
 .generation_image{
     /* border: 3px solid blue; */
     width: 70%;
@@ -45,12 +55,15 @@
     border: 1px solid black;
 }
 
-
-.container_text {
-    /* border: 3px solid red; */
-    width: 40%;
-    max-width: 35%;
-    margin: 10px;
-
+/* Weinberge, Vinothek */
+.weinberge_image, .vinothek_image {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
 }
+
+.weinberg_text{
+    text-align: left;
+}
+
 

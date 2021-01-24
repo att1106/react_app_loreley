@@ -63,7 +63,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_3.png"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_3.jpg"}
                         alt="Weingut_Generation_3"
                         className="generation_image"
                     />
@@ -87,7 +87,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_4.png"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_4.jpg"}
                         alt="Weingut_Generation_4"
                         className="generation_image"
                     />

@@ -79,7 +79,8 @@ const NavigationBar = () => {
             }}
             show={menuOpen3}
             >
-            <Link to="/weine" className="nav-link navbarlink">Qualitätspyramide</Link>
+            <Link to="/weine" className="nav-link navbarlink weine">Qualitätspyramide</Link>
+
           </NavDropdown>
 
 
