@@ -15,17 +15,19 @@ body {
 .defaultsite {
     margin: 3% 0;
     padding: 2% 0;
-   
 }
 
 .defaultsite p {
 margin-right: 5%;
-margin-left: 5%;
- 
+margin-left: 5%; 
 }
 
 .defaultsite h1 {
     text-align: center;
+}
+
+.textbox {
+  background-color:  #dddddd;
 }
 
 /* Images */

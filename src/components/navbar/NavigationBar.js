@@ -26,7 +26,7 @@ const NavigationBar = () => {
         >
 
           <NavDropdown
-            className="navbarlink navelement" title="Home" id="basic-nav-dropdown"
+            className="navbarlink navelement" title="Info" id="basic-nav-dropdown"
             onMouseEnter={() => {
               setMenuOpen(true);
             }}

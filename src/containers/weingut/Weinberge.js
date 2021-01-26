@@ -11,23 +11,25 @@ const Weinberge = () => {
                 alt="Weinberge"
                 className="titleimage"
             />
-            <h1>Weinberge</h1>
-            <p>
-                Wir bewirtschaften zurzeit zehn Hektar in den Steillagen der Mittelrheinhänge, verteilt auf drei Lagen.
-                Unsere Weinkultur lebt von den Schieferböden, die für unsere besondere mineralische Weinqualität sorgen.
-                Auf ihnen wird die Sonnenwärme gespeichert, so dass unsere Reben in idealem Klima die nötige Kraft für unsere Weine liefern.
-        </p>
+            <div className="textbox">
+                <h1>Weinberge</h1>
+                <p>
+                    Wir bewirtschaften zurzeit zehn Hektar in den Steillagen der Mittelrheinhänge, verteilt auf drei Lagen.
+                    Unsere Weinkultur lebt von den Schieferböden, die für unsere besondere mineralische Weinqualität sorgen.
+                    Auf ihnen wird die Sonnenwärme gespeichert, so dass unsere Reben in idealem Klima die nötige Kraft für unsere Weine liefern.
+                </p>
+            </div>
 
             {/* Weinberge Nochern */}
             <div className="container defaultsite">
-                <div className="container_text weinberg_text">
+                <div className="container_text weinberg_text textbox">
                     <h1>Nochern, Nocherner Brünnchen</h1>
                     <p>
                         Die Lage Nocherner Brünnchen liegt hoch über dem Rheintal, eingebettet in die Landschaft des Taunus.
                         Unsere Weinberge verteilen sich in der zwölf Hektar großen Flurbereinigung,
                         in der ca. fünf Hektar von uns selbst bewirtschaftet werden.
                     <br />
-                    <br />
+                        <br />
                     Auch hier findet man wieder, den für unsere Region typischen Schieferboden, der für unsere
                     besondere mineralische Weinqualität sorgt.
                     </p>
@@ -42,17 +44,17 @@ const Weinberge = () => {
             </div>
             {/* Weinberge Wellmich */}
             <div className="container defaultsite">
-                <div className="container_text weinberg_text">
+                <div className="container_text weinberg_text textbox">
                     <h1>Wellmich, Burg Maus</h1>
                     <p>
-                    Auch direkt gegenüber der Burg Maus im Stadtteil Wellmich liegt ein Teil unserer Weinberge.
+                        Auch direkt gegenüber der Burg Maus im Stadtteil Wellmich liegt ein Teil unserer Weinberge.
                     <br />
-                    <br />
-                    Hier befindet sich auch unser steilster Weinberg, der mit seinen 90 Prozent Steigung eine ganz besondere 
+                        <br />
+                    Hier befindet sich auch unser steilster Weinberg, der mit seinen 90 Prozent Steigung eine ganz besondere
                     Herausforderung Für Mensch und Maschine ist.
                     <br />
-                    <br />
-                    In dieser Lage bevorzugen wir den Anbau von Riesling und Spätburgunder. 
+                        <br />
+                    In dieser Lage bevorzugen wir den Anbau von Riesling und Spätburgunder.
                     </p>
                 </div>
                 <div className="container_image">
@@ -65,15 +67,15 @@ const Weinberge = () => {
             </div>
             {/* Weinberge Sankt Goarshausen, Loreley Edel */}
             <div className="container defaultsite">
-                <div className="container_text weinberg_text">
+                <div className="container_text weinberg_text textbox">
                     <h1>Sankt Goarshausen, Loreley Edel</h1>
                     <p>
-                    Der einzig wahre Loreleywein wächst in unserem ältesten Weinberg, der sich unmittelbar an den
-                    sagenumwobenen Loreleyfelsen anschmiegt. Der Weinberg wurde im Jahr 1964 gepflanzt.
-                    Damals war es üblich, die Weinberge in Terrassenlage anzulegen, um die Arbeit,
-                    für damalige Verhältnisse, so effektiv wie möglich zu gestalten. Das bedeutet für uns heute aber auch,
-                    dass der gesamte Weinberg von Hand bewirtschaftet werden muss und der Einsatz unserer Raupe nur
-                    bedingt möglich ist. Auch das ist ein Grund, warum unser Loreley Edel ein ganz besonderer Wein ist.
+                        Der einzig wahre Loreleywein wächst in unserem ältesten Weinberg, der sich unmittelbar an den
+                        sagenumwobenen Loreleyfelsen anschmiegt. Der Weinberg wurde im Jahr 1964 gepflanzt.
+                        Damals war es üblich, die Weinberge in Terrassenlage anzulegen, um die Arbeit,
+                        für damalige Verhältnisse, so effektiv wie möglich zu gestalten. Das bedeutet für uns heute aber auch,
+                        dass der gesamte Weinberg von Hand bewirtschaftet werden muss und der Einsatz unserer Raupe nur
+                        bedingt möglich ist. Auch das ist ein Grund, warum unser Loreley Edel ein ganz besonderer Wein ist.
                     </p>
                 </div>
                 <div className="container_image">

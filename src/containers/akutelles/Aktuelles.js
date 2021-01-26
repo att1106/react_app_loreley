@@ -15,7 +15,7 @@ const Aktuelles = () => {
                 alt="Home_Titelbild"
                 className="titleimage"
             />
-            <div id="aktuelles-text">
+            <div id="aktuelles-text" className="textbox">
                 <h1>Aktuelles</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no

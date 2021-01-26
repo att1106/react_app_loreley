@@ -2,7 +2,7 @@ import React from "react";
 
 const Oeffnungszeiten = () => {
     return (
-        <div className="oeffnungszeiten" id="oeffnungszeiten">
+        <div className="oeffnungszeiten textbox" id="oeffnungszeiten">
 
             <h1>Öffnungszeiten</h1>
 

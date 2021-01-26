@@ -5,7 +5,7 @@ import Geschichte from "./Geschichte";
 
 const Weingut = () => {
     return (
-        <div className="weingut defaultsite" id="allgemein">
+        <div className="weingut defaultsite textbox" id="allgemein">
 
             <ImageImport
                 img={process.env.PUBLIC_URL + "/img/Weingut_Titelbild.jpeg"}

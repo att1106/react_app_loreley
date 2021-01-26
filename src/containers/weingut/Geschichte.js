@@ -11,12 +11,14 @@ const Geschichte = () => {
                 alt="Geschichte"
                 className="titleimage"
             />
+            <div className="textbox">
             <h1>Geschichte</h1>
             <p>
                 Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
                 Seit mehr als 100 Jahren bewirtschaften wir in den Steillagen des wünderschönen Oberen Mittelrheintals bereits mit viel Liebe und Expertise eigene Weinberge. Der Betrieb wird momentan in der 5. Generation von Ralph und Isolde Leonhard geführt. Seit August 2018 ist auch der jüngste Sohn Felix mit dabei.
                 Er hat in Veitshöchheim seinen Techniker für Weinbau und Önologie gemacht und bringt nun frischen Wind in den Familienbetrieb. Aber auch Sohn Philipp, der als Bauingenieur arbeitet, ist immer zu Stelle, wenn helfende Hände benötigt werden – eben ein echtes Familienunternehmen.
              </p>
+             </div>
 
             {/* Generation 1*/}
             <div className="container defaultsite">
@@ -27,7 +29,7 @@ const Geschichte = () => {
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>1. Generation – Philipp Leonhard</h1>
                     <p>
                         Den Grundstein für die lange Weinbau-Tradition der Leonhards
@@ -45,7 +47,7 @@ const Geschichte = () => {
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>2. Generation – Georg Leonhard </h1>
                     <p>
                         Sein Sohn Georg Leonhard führte den Weinberg ebenfalls im
@@ -68,7 +70,7 @@ const Geschichte = () => {
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>3. Generation – Wilhelm Leonhard </h1>
                     <p>
                         Georg Leonhard war bis ins hohe Alter dem Weinbau verbunden und führte
@@ -92,7 +94,7 @@ const Geschichte = () => {
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>4. Generation – Georg Leonhard </h1>
                     <p>
                         Der in den 60er Jahren aufkommende Tourismus im Loreleytal machte den Weinbau zum
@@ -107,12 +109,12 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_5.png"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_5.jpg"}
                         alt="Weingut_Generation_5"
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>5. Generation – Ralph Leonhard </h1>
                     <p>
                         Bis zum Jahr 1993 bewirtschaftete die Loreley-Kellerei zwei Hektar Weinberge direkt am Loreleyfelsen und in der Nocherner
@@ -133,7 +135,7 @@ const Geschichte = () => {
                         className="generation_image"
                     />
                 </div>
-                <div className="container_text">
+                <div className="container_text textbox">
                     <h1>6. Generation – Felix Leonhard </h1>
                     <p>
                         Auch unser Sohn Felix hat sich für eine Ausbildung zum Winzer entschieden und ist seit Juli 2018 fertig mit seiner Weiterbildung zum Techniker für Weinbau und Önologie.

@@ -7,7 +7,7 @@ const Vinothek = () => {
 
     return (
         <div className="container defaultsite" id="vinothek">
-            <div className="container_text">
+            <div className="container_text textbox">
                 <h1 className="vinothek_header">Vinothek</h1>
                 <p className="vinothek_text">
                     Am 30.Juni 2019 haben wir in der Bahnhofstraße 4 in Sankt Goarshausen unsere Vinothek eröffnet.

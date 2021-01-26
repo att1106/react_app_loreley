@@ -2,7 +2,7 @@ import React from "react";
 
 const Termine = () => {
     return (
-        <div className="aktuelleseite" id="termine">
+        <div className="aktuelleseite textbox" id="termine">
 
             <h1>Termine</h1>
             <p>
