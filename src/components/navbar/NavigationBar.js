@@ -35,7 +35,7 @@ const NavigationBar = () => {
             }}
             show={menuOpen}
            >
-            <Link to="/home#aktuelles" className="nav-link navbarlink">Akutelles</Link>
+            <Link to="/home#aktuelles" className="nav-link navbarlink">Aktuelles</Link>
             <Link to="/home#termine" className="nav-link navbarlink">Termine</Link>
             <Link to="/home#oeffnungszeiten" className="nav-link navbarlink">Öffnungszeiten</Link>
           </NavDropdown>

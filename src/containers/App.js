@@ -15,6 +15,8 @@ import Start from "./start/Start";
 import Aktuelles from "./akutelles/Aktuelles";
 // Weingut
 import Weingut_main from "./weingut/Weingut_main";
+// Weingut
+import Weine from "./weine/Weine";
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
           <Route exact path="/" component={Start} />
           <Route exact path="/home" component={Aktuelles} />
           <Route exact path="/weingut" exact component={Weingut_main} />
+          <Route exact path="/weine" exact component={Weine} />
 
 
         </Switch>
