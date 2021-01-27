@@ -4,7 +4,7 @@
     margin: 3% auto 2% auto;
 }
 
-.container {
+.weine-container {
     display: flex;
     flex-wrap : wrap;
     max-width: 90%;
@@ -13,7 +13,7 @@
     justify-content : space-between;
     align-items : flex-start;
 }
-.container_image {
+.weine-container_image {
     /* border: 3px solid blue; */
     width: 30%;
     max-width: 30%;
@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-.container_text {
+.weine-container_text {
     /* border: 3px solid red; */
     width: 30%;
     max-width: 30%;

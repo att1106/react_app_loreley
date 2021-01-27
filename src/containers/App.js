@@ -17,10 +17,16 @@ import Aktuelles from "./akutelles/Aktuelles";
 import Weingut_main from "./weingut/Weingut_main";
 // Weingut
 import Weine from "./weine/Weine";
-
+//Impressum, Datenschutz
+import Impressum from "./impressum/Impressum";
+import Datenschutz from "./datenschutz/Datenschutz";
+import AgarumweltKlimaMassnahmen from "./agarumweltKlimaMassnahmen/AgarumweltKlimaMassnahmen";
 
 function App() {
+
   return (
+    
+
     <div>
       <Container className="container-header">
         <Header />
@@ -28,14 +34,16 @@ function App() {
 
     
 
-
         <Switch>
 
           <Route exact path="/" component={Start} />
           <Route exact path="/home" component={Aktuelles} />
           <Route exact path="/weingut" exact component={Weingut_main} />
           <Route exact path="/weine" exact component={Weine} />
-
+          <Route exact path="/impressum" exact component={Impressum} />
+          <Route exact path="/datenschutz" exact component={Datenschutz} />
+          <Route exact path="/agrarumwelt-und-klimamassnahmen" exact component={AgarumweltKlimaMassnahmen} />
+          
 
         </Switch>
     

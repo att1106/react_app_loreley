@@ -2,7 +2,10 @@ import React from "react";
 import "./weine.css"
 import ImageImport from "../../components/structure/ImageImport";
 
-const XXX = () => {
+const Weine = () => {
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+       });
     return (
         <div className="defaultsite">
             
@@ -14,22 +17,22 @@ const XXX = () => {
             <h1>Qualitätspyramide</h1>
 
             {/* QP-schwarz */}
-            <div className="container defaultsite">
-                <div className="container_image">
+            <div className="weine-container defaultsite">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_schwarz.png"}
                         alt="Weine QP schwarz"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_image">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_schwarz_Rohling.jpg"}
                         alt="Weine QP schwarz Rohling"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_text textbox">
+                <div className="weine-container_text textbox">
                     <h1>Frisch und Fruchtig</h1>
                     <p>
                         Der perfekte Einstieg in unsere Weinauswahl. 
@@ -39,22 +42,22 @@ const XXX = () => {
                 </div>
             </div>
             {/* QP-kupfer */}
-            <div className="container defaultsite">
-                <div className="container_image">
+            <div className="weine-container defaultsite">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_kupfer.png"}
                         alt="Weine QP kupfer"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_image">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_kupfer_Rohling.jpg"}
                         alt="Weine QP kupfer Rohling"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_text textbox">
+                <div className="weine-container_text textbox">
                     <h1>Komplexe Aromen</h1>
                     <p>
                         Körperreiche Weine. Der perfekte Essensbegleiter.
@@ -62,22 +65,22 @@ const XXX = () => {
                 </div>
             </div>
             {/* QP-silber */}
-            <div className="container defaultsite">
-                <div className="container_image">
+            <div className="weine-container defaultsite">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_silber.png"}
                         alt="Weine QP silber"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_image">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_silber_Rohling.jpg"}
                         alt="Weine QP silber Rohling"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_text textbox">
+                <div className="weine-container_text textbox">
                     <h1>Lagerfähige Weine</h1>
                     <p>
                         Elegant im Glas. Für die besonderen Momente.
@@ -85,22 +88,22 @@ const XXX = () => {
                 </div>
             </div>
             {/* QP-gold */}
-            <div className="container defaultsite">
-                <div className="container_image">
+            <div className="weine-container defaultsite">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_gold.png"}
                         alt="Weine QP gold"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_image">
+                <div className="weine-container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_gold_Rohling.jpg"}
                         alt="Weine QP gold Rohling"
                         className="qp-image"
                     />
                 </div>
-                <div className="container_text textbox">
+                <div className="weine-container_text textbox">
                     <h1>Old but Gold - Über 50 Jahre alte Reben</h1>
                     <p>
                         Unser ältester Weinberg am Fuße des Loreleyfelsens..
@@ -109,11 +112,6 @@ const XXX = () => {
                     </p>
                 </div>
             </div>
-
-
-
-
-
 
             <ImageImport
                 img={process.env.PUBLIC_URL + "/img/Weine_Titelbild.png"}
@@ -124,4 +122,4 @@ const XXX = () => {
     );
 }
 
-export default XXX;
+export default Weine;
