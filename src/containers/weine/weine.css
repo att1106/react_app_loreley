@@ -12,6 +12,8 @@
     margin-right: auto;
     justify-content : space-between;
     align-items : flex-start;
+    /* background-color: #dddddd; */
+    border: solid black 1px;
 }
 .weine-container_image {
     /* border: 3px solid blue; */

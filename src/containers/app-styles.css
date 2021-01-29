@@ -20,6 +20,7 @@ body {
 .defaultsite p {
 margin-right: 5%;
 margin-left: 5%; 
+font-size: 1.5rem;
 }
 
 .defaultsite h1 {
@@ -27,7 +28,10 @@ margin-left: 5%;
 }
 
 .textbox {
-  background-color:  #dddddd;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 15px;;
 }
 
 /* Images */

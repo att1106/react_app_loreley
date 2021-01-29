@@ -14,7 +14,7 @@ const Weine = () => {
                 alt="Weine_Qualitätspyramide"
                 className="weine_image"
             />
-            <h1>Qualitätspyramide</h1>
+            {/* <h1>Qualitätspyramide</h1> */}
 
             {/* QP-schwarz */}
             <div className="weine-container defaultsite">
@@ -113,11 +113,11 @@ const Weine = () => {
                 </div>
             </div>
 
-            <ImageImport
+            {/* <ImageImport
                 img={process.env.PUBLIC_URL + "/img/Weine_Titelbild.png"}
                 alt="Weine_Titelbild"
                 className="titleimage"
-            />
+            /> */}
         </div>
     );
 }
