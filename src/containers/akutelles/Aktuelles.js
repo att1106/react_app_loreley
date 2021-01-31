@@ -10,12 +10,15 @@ const Aktuelles = () => {
 
         <div className="defaultsite" id="aktuelles">
 
-            <ImageImport
-                img={process.env.PUBLIC_URL + "/img/Home_Titelbild.jpg"}
-                alt="Home_Titelbild"
-                className="titleimage"
-            />
-            <div id="aktuelles-text" className="textbox">
+            <div className="titleimage-container">
+                <ImageImport
+                    img={process.env.PUBLIC_URL + "/img/Home_Titelbild.jpg"}
+                    alt="Home_Titelbild"
+                    className="titleimage"
+                />
+            </div>
+            
+            <div id="aktuelles-text" className="textbox-titleimage">
                 <h1>Aktuelles</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no

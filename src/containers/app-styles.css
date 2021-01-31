@@ -7,14 +7,13 @@ body {
     padding: 0 0;
   }
 
-.container-header {
-  margin-bottom: 2%;
-}
-
+  footer {
+   margin-bottom: 0;
+  }
 /* default page style*/ 
 .defaultsite {
-    margin: 3% 0 1% 0;
-    padding: 2% 0;
+    /* margin: 2% 0 0 0;
+    padding: 2% 0; */
 }
 
 .defaultsite p {
@@ -27,24 +26,63 @@ font-size: 1.5rem;
     text-align: center;
 }
 
-.textbox {
-  background-color: white;
-  padding-top: 1rem;
+/* Textboxes */
+.textbox-titleimage, .textbox{
+  background-color: #dddddd;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 3%;
   padding-bottom: 1rem;
-  margin: 15px;;
+  /* padding-bottom: 1rem; */
 }
 
-/* Images */
-.titleimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  display:block;
-  width:100%;
- /* max-width: 94%; */
-  height: 45rem;
-  max-height: 50rem;
-  margin-bottom: 1rem;
-  /* margin: 3%; */
-  padding-top: 3%;
+
+/* Title-Images */
+.titleimage-container{
+  width: 100%;  
+  margin-top: 4.5%;
+  margin-bottom: 1%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  overflow: hidden;
 }
+.titleimage {
+  /* display: block; */
+  width:100%; 
+  /* overflow: hidden; */
+}
+  /* Deskopt, Laptop Size 1024px*/
+@media only screen and (min-width: 64em)  {
+  h1{
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    
+  }
+  .titleimage-container{
+   height: 90vh; 
+   max-height: 90vh;   
+  }
+  .titleimage {
+  /* overflow: hidden;
+  object-fit: fill; */
+  height: 90%;
+  padding: 4vh 0 0 0;
+  }
+}
+/* @media only screen and (min-width: 1200px)  {
+  .titleimage-container{
+   height: 80vh; 
+   max-height: 80vh;   
+  }
+  .titleimage {
+  overflow: hidden;
+  /* object-fit: cover; */
+  /* height: 90%;
+  padding: 2% 0 0 0;
+  margin: 0;
+  } 
+  }*/
+

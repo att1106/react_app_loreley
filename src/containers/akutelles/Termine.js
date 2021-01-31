@@ -9,16 +9,13 @@ const Termine = () => {
                 Leider treffen auch uns die aktuellen Einschränkungen.
                 Ob und in welcher Form kleine Veranstaltungen durchgeführt werden können,
                 steht noch nicht fest. Wir werden Sie auf dem Laufenden halten!
+            </p>
+            <p>Bis dahin steht dem Weingenuss zu Hause nichts im Wege - gerne beraten wir Sie!</p>
 
-                Bis dahin steht dem Weingenuss zu Hause nichts im Wege - gerne beraten wir Sie!
+            <p> 31. Mai und 1. Juni Pfingsten
+            Hoffest to go
 
-
-
-                31. Mai und 1. Juni Pfingsten
-                Hoffest to go
-        </p>
-
-
+            </p>
         </div>
     );
 }

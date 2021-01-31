@@ -28,12 +28,9 @@ function App() {
     
 
     <div>
-      <Container className="container-header">
+      
         <Header />
-      </Container>
-
-    
-
+     
         <Switch>
 
           <Route exact path="/" component={Start} />
