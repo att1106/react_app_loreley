@@ -5,6 +5,7 @@
     padding: 2rem;
     margin-right: 20%;
     margin-left: 20%;
+    margin-bottom: 5%;
 
     text-align: center;
 }
@@ -13,3 +14,4 @@ button{
     background-color: grey !important;
     border-color: grey !important;
 }
+

@@ -1,20 +1,19 @@
 import React from "react";
-
 import ImageImport from "../../components/structure/ImageImport";
-import Geschichte from "./Geschichte";
+import { Link } from "react-router-dom";
 
 const Weingut = () => {
     return (
         <div className="weingut defaultsite" id="allgemein">
-
-            <ImageImport
-                img={process.env.PUBLIC_URL + "/img/Weingut_Titelbild.jpeg"}
-                alt="Weingut"
-                className="titleimage"
-            />
-            <div className="textbox">
-
-
+            <div className="titleimage-container">
+                <ImageImport
+                    img={process.env.PUBLIC_URL + "/img/Weingut_Titelbild.jpeg"}
+                    alt="Weingut"
+                    className="titleimage"
+                />
+            </div>
+            
+            <div className="textbox-titleimage">
                 <h1>Weingut</h1>
                 <p>
                     Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.

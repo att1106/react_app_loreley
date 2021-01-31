@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { HashLink as Link } from "react-router-hash-link";
 import ImageImport from "../structure/ImageImport";
 
 
@@ -13,7 +13,6 @@ const NavigationBar = () => {
   const [menuOpen2, setMenuOpen2] = useState(false);
   const [menuOpen3, setMenuOpen3] = useState(false);
 
-
   return (
 
     <Navbar fixed="top" bg="white" expand="lg">
@@ -24,8 +23,8 @@ const NavigationBar = () => {
           className="headnavbar justify-content-center"
           style={{ flex: 1 }}
         >
-
-          <NavDropdown
+        
+         <NavDropdown
             className="navbarlink navelement" title="Info" id="basic-nav-dropdown"
             onMouseEnter={() => {
               setMenuOpen(true);
@@ -39,6 +38,7 @@ const NavigationBar = () => {
             <Link to="/home#termine" className="nav-link navbarlink">Termine</Link>
             <Link to="/home#oeffnungszeiten" className="nav-link navbarlink">Öffnungszeiten</Link>
           </NavDropdown>
+          
 
           <NavDropdown
             className="navbarlink navelement"
