@@ -11,10 +11,9 @@ body {
     margin-bottom: 0;
   }
 /* default page style*/ 
-.defaultsite {
-    /* margin: 2% 0 0 0;‚
-    padding: 2% 0; */
-}
+/* .defaultsite {
+  overflow: hidden;
+} */
 
 .defaultsite p {
 margin-right: 5%;
@@ -32,6 +31,7 @@ font-size: 1.5rem;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 3%;
+  margin-top: 1%;
   padding-bottom: 1rem;
   /* padding-bottom: 1rem; */
 }

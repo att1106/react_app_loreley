@@ -2,8 +2,18 @@
     text-align: center;
 }
 
+.textbox-titleimage {
+    min-height: 50vh;
+}
+
+#termine {
+    position: relative;
+
+}
+
 /* #aktuelles-text, #termine, #oeffnungszeiten{
     background-color:  #dddddd;
     margin: 15px;
     padding: 15px 15px; 
 } */
+

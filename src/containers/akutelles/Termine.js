@@ -2,9 +2,8 @@ import React from "react";
 
 const Termine = () => {
     return (
-        <div className="aktuelleseite textbox" id="termine">
-
-            <h1>Termine</h1>
+        <div className="termine textbox" id="termine">
+            <h1 >Termine</h1>
             <p>
                 Leider treffen auch uns die aktuellen Einschränkungen.
                 Ob und in welcher Form kleine Veranstaltungen durchgeführt werden können,

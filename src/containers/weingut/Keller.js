@@ -21,8 +21,6 @@ const Keller = () => {
                     Mit der Zeit kamen neue Fässer bzw. Tanks auf den Markt, die  weniger aufwendig zu erhalten und zu reinigen waren. Man tauschte also Holzfässer durch GFK Tanks. Neben diesen beiden Varianten kamen mit der Zeit auch Edelstahltanks auf den Markt. Diese waren und sind pflegeleicht und sehr gut zu reinigen. Was für Winzer jede Menge Vorteile schaffte.
                     Also wurden die GFK Tanks schließlich durch Edelstahltanks ersetzt.
                 </p>
-            </div>
-
 
             {/* Keller Fass */}
             <div className="container-center defaultsite">
@@ -42,6 +40,11 @@ const Keller = () => {
                     Zeit ist uns bei unseren Weinen extrem wichtig, damit sie den perfekten Reifegrad erreichen. </p>
                 </div>
             </div>
+                
+            </div>
+
+
+            
 
         </div>
     );

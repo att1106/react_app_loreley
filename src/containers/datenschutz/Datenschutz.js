@@ -1,16 +1,9 @@
 import React from "react";
-
-import ImageImport from "../../components/structure/ImageImport";
+import "./datenschutz.css";
 
 const Datenschutz = () => {
     return (
-        <div className="defaultsite">
-
-            <ImageImport
-                img={process.env.PUBLIC_URL + "/img/Impressum_Titelbild.png"}
-                alt="Datenschutz Titelbild"
-                className="titleimage"
-            />
+        <div className="datenschutz textbox">
             <h1>Datenschutz </h1>
 
           

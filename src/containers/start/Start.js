@@ -25,8 +25,8 @@ const Start = () => {
                 <p>
                 Unser Online-Shop hat rund um die Uhr für Sie geöffnet!   
                 </p>
-                <Link to="/home#oeffnungszeiten">
-                    <Button>Hier geht es zu unseren Öffnungszeiten</Button>
+                <Link to="/home#aktuelles">
+                    <Button>Hier geht es zu unseren aktuellen Infos</Button>
                 </Link>
             </div>
 
