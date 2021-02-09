@@ -26,5 +26,10 @@ footer p {
   margin-left: 30px;
   margin-right: 30px;
   color: black;
- 
+}
+
+.footer-address, .footer-address>a {
+  color: black;
+  font-weight: bold;
+  margin: 2rem 2rem;
 }
