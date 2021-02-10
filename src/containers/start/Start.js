@@ -8,22 +8,26 @@ import "./start.css";
 
 
 const Start = () => {
+    const image = <ImageImport
+        img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpeg"}
+        alt="Startseite"
+        className="titleimage"
+    />
+
 
     return (
         <div className="defaultsite">
 
-            <div className="titleimage-container">
-                <ImageImport
-                    img={process.env.PUBLIC_URL + "/img/Startseite_Titelbild.jpeg"}
-                    alt="Startseite"
-                    className="titleimage"
-                />
+            <div className="titleimage-container" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Startseite_Titelbild.jpeg'})`
+            }}>
+
             </div>
-            
+
             <div className="startseite-box">
                 <h3>Aktuelle Informationen</h3>
                 <p>
-                Unser Online-Shop hat rund um die Uhr für Sie geöffnet!   
+                    Unser Online-Shop hat rund um die Uhr für Sie geöffnet!
                 </p>
                 <Link to="/home#aktuelles">
                     <Button>Hier finden Sie unsere aktuellen Infos</Button>

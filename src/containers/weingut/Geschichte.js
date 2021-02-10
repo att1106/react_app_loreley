@@ -5,12 +5,17 @@ import ImageImport from "../../components/structure/ImageImport";
 const Geschichte = () => {
     return (
         <div className="geschichte defaultsite" id="geschichte">
-            <div className="titleimage-container">
+            {/* <div className="titleimage-container">
                 <ImageImport
                     img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Titelbild.png"}
                     alt="Geschichte"
                     className="titleimage"
                 />
+            </div> */}
+            <div className="titleimage-container" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Geschichte_Titelbild.png'})`
+            }}>
+
             </div>
 
             <div className="textbox-titleimage">

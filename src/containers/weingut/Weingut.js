@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const Weingut = () => {
     return (
         <div className="weingut defaultsite" id="allgemein">
-            <div className="titleimage-container">
-                <ImageImport
-                    img={process.env.PUBLIC_URL + "/img/Weingut_Titelbild.jpeg"}
-                    alt="Weingut"
-                    className="titleimage"
-                />
+            <div className="titleimage-container" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Titelbild.jpeg'})`
+            }}>
+                
             </div>
+            
+      
             
             <div className="textbox-titleimage">
                 <h1>Weingut</h1>
