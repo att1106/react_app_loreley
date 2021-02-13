@@ -5,14 +5,8 @@ import ImageImport from "../../components/structure/ImageImport";
 const Geschichte = () => {
     return (
         <div className="geschichte defaultsite" id="geschichte">
-            {/* <div className="titleimage-container">
-                <ImageImport
-                    img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Titelbild.png"}
-                    alt="Geschichte"
-                    className="titleimage"
-                />
-            </div> */}
-            <div className="titleimage-container" style={{
+
+            <div className="titleimage-container background-geschichte" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Geschichte_Titelbild.png'})`
             }}>
 
@@ -39,9 +33,9 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>1. Generation – Philipp Leonhard</h1>
                     <p>
-                        Den Grundstein für die lange Weinbau-Tradition der Leonhards
-                        legte ca. 1890 Philipp Leonhard, der mit einem kleinen Weinberg
-                        sein Tagelöhnergeld aufbesserte.
+                        Den Grundstein für die lange Weinbautradition der Leonhards legte Philipp Leonhard im Jahr 1890.
+                        Er erwarb ein Haus inklusive Weinberg in St. Goarshausen  Neben der Haltung von Ziegen, war der Weinbau im Loreleytal für ihn die einzige Möglichkeit das Geld als Tagelöhner aufzubessern.
+                        Der Weinberg machte sich bezahlt und somit nahm er weitere kleine Weinberge dazu.
                     </p>
                 </div>
             </div>
@@ -57,14 +51,17 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>2. Generation – Georg Leonhard </h1>
                     <p>
-                        Sein Sohn Georg Leonhard führte den Weinberg ebenfalls im
-                        Nebenerwerb weiter. Die geerntete Weinmenge reichte jedoch
-                        nicht aus, so dass er Wein zukaufen musste. Das gefiel jedoch s
-                        seinen Mitstreitern nicht und so wurde er 1916 gezwungen den Weinhandel
-                        als Haupterwerb anzumelden.
-                    <br />
+                        Sein Sohn Georg Leonhard führte die Weinberge ebenfalls im Nebenerwerb weiter.
+                        Er war damit so erfolgreich, dass die geerntete Weinmenge nicht ausreichte.
+                        Wein war damals ein gefragtes Produkt und da die Weinbergsfläche in den Steillagen rund um die Loreley begrenzt war, entschloss er sich Wein zuzukaufen.
+                        Das gefiel jedoch  seinen Mitstreitern nicht und so wurde er 1916 gezwungen den Weinhandel als Haupterwerb anzumelden.
+                    </p>
+                    <p>
                         <b>Die "Loreley-Kellerei" war geboren.</b>
+                    </p>
 
+                    <p>
+                        Er führte das Weingut erfolgreich durch den ersten Weltkrieg und blieb bis ins hohe Alter dem Weinbau verbunden.
                     </p>
                 </div>
             </div>
@@ -80,15 +77,13 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>3. Generation – Wilhelm Leonhard </h1>
                     <p>
-                        Georg Leonhard war bis ins hohe Alter dem Weinbau verbunden und führte
-                        die Firma erfolgreich durch den ersten Weltkrieg. Sein Sohn Wilhelm folgte erst anderen
-                        Pfaden. Er ging zunächst dem Bäckerhandwerk nach, ehe er sich Anfang der 30er Jahre dem Weinbau verschrieb
-                        und den Betrieb weiter ausbaute. Die schwere Zeit des zweiten Weltkriegs hat die Firma gut
-                        überstanden, wohl auch weil Wein damals in den Dörfern als Tauschobjekt gern gesehen war.
-                        Auch der kleine Gemischtwarenladen, in dem neben den eigenen Weinen auch Tabakwaren,
-                        Feinkost und Süßigkeiten verkauft wurden, konnte sich während der Kriegszeiten halten.
-                        Wilhelm führte das Familienunternehmen mit konkreten Zielen. Das zahlte sich aus. Er konnte den Kundenkreis von den
-                        damals noch zahlreichen Gaststätten der Dörfer im Umkreis auch auf weiter entfernte Regionen, wie zum Beispiel das Ruhrgebiet, erweitern.
+                        Sein Sohn Wilhelm folgte erst anderen Pfaden.
+                        Er ging zunächst dem Bäckerhandwerk nach, ehe er sich Anfang der 30er Jahre dem Weinbau verschrieb und den Betrieb weiter ausbaute.
+                        Die schwere Zeit des zweiten Weltkriegs hat die Firma gut überstanden, wohl auch weil Wein damals in den Dörfern als Tauschobjekt gern gesehen war.
+                        Auch der kleine Gemischtwarenladen, in dem neben den eigenen Weinen auch Spirituosen, Tabakwaren, Feinkost und Süßigkeiten verkauft wurden, konnte sich auch lange nach Kriegsende halten.
+                    </p>
+                    <p>
+                        Die damals noch zahlreichen Gaststätten im Umkreis zählten zu den Hauptabnehmern, aber auch Kunden aus weiter entfernten Regionen, wie zum Beispiel aus dem Ruhrgebiet wussten den Loreleywein zu schätzen.
                     </p>
                 </div>
             </div>
@@ -104,11 +99,10 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>4. Generation – Georg Leonhard </h1>
                     <p>
-                        Der in den 60er Jahren aufkommende Tourismus im Loreleytal machte den Weinbau zum
-                        lohnenden Betriebszweig, den die 4. Generation Georg Leonhard stetig ausbaute.
-                        Der Weinkeller im alten Rathaus in der Rheinstraße war bald zu klein und so wurde
-                        in der Nastätter Straße, dem heutigen Firmensitz, die Kellerei und später auch
-                        das Wohnhaus errichtet.
+                        Sein ältester Sohn Georg übernahm 1959 mit seiner Frau Ursula das Weingut und den Gemischtwarenladen.
+                        Der in den 60er Jahren aufkommende Tourismus im Loreleytal machte den Weinverkauf zum lohnenden Betriebszweig, den Georg und Ursula Leonhard stetig ausbauten.
+                        Da die Weinmenge aus zwei Hektar eigenen Weinbergen nicht ausreichte, überwog weiterhin in dieser Zeit der Verkauf von zugekauftem Fasswein.
+                        Die Arbeitsfläche im alten Rathaus in der Rheinstraße war bald zu klein und so wurde in der Nastätter Straße, dem heutigen Firmensitz, die Kellerei und später auch das Wohnhaus errichtet.
                     </p>
                 </div>
             </div>
@@ -124,12 +118,10 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>5. Generation – Ralph Leonhard </h1>
                     <p>
-                        Bis zum Jahr 1993 bewirtschaftete die Loreley-Kellerei zwei Hektar Weinberge direkt am Loreleyfelsen und in der Nocherner
-                        Flurbereinigung. Der Weinhandel war aber bis in die 80er Jahre immer noch ein wichtiger Wirtschaftszweig, der mit dem Auftauchen der großer Supermarktketten, die nun auch ein breites Weinsortiment anboten, immer kleiner wurde.
-                        Im Jahr 1993 übernahm der heutige Inhaber Ralph Leonhard in der 5. Generation das Weingut und setzte durch den Kauf von Weinbergen in der Wellmicher und Nocherner Flurbereinigung wieder mehr auf die Produktion lokaler Weine.
-                        Der Kundenkreis hat sich im Lauf der Jahre ebenfalls gewandelt. Früher setzten unsere Vorfahren auf die kleinen Dorfwirtschaften, die heute jedoch bis auf einige wenige verschwunden sind.
-                        Der Tourismus ist nach wie vor ein wichtiger Zweig im Weinverkauf, aber auch im Zuge der Globalisierung und Digitalisierung haben wir mittlerweile auch Kunden deutschlandweit und sogar darüber hinaus.
-                        Es hat sich im Laufe der Zeit viel verändert, aber die Loreley-Kellerei ist immer ein Familienbetrieb gewesen, der Wert auf Regionalität und Qualität gelegt hat. Wir sind stolz diese lange Tradition fortführen zu dürfen.
+                        Im Jahr 1993 übernahm dessen Sohn und heutiger Betriebsinhaber Ralph Leonhard, nach seiner Weiterbildung als Winzermeister, mit seiner Frau Isolde das Weingut.
+                        Damals bewirtschaftete die Loreley-Kellerei zwei Hektar Weinberge. In den 90er Jahren stieg die Nachfrage nach regionalen Weinen.
+                        Deshalb entschlossen sich Ralph und Isolde Leonhard weitere Weinberge im Loreleytal zu kaufen und den Schwerpunkt auf die Produktion von eigenen Weinen zu legen.
+                        Mittlerweile bewirtschaftet die Loreley-Kellerei 10ha eigene Weinberge in den Steillagen des Loreleytals.
                     </p>
                 </div>
             </div>
@@ -145,10 +137,11 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>6. Generation – Felix Leonhard </h1>
                     <p>
-                        Auch unser Sohn Felix hat sich für eine Ausbildung zum Winzer entschieden und ist seit Juli 2018 fertig mit seiner Weiterbildung zum Techniker für Weinbau und Önologie.
-                        Seit August 2018 unterstützt er uns in unserem Ziel den Weinbau im Loreleytal zu erhalten und stetig zu verbessern und weiterzuentwickeln. Er hat seine eigene Weinlinie ins Leben gerufen, um dem Weingut neuen Schwung zu verleihen.
-                        Dabei setzt er vor allem auf Nachhaltigkeit. Gemeinsam wollen wir das Weingut eine Generation weitertragen und es fit für die Zukunft machen.
-                        Bei uns trifft Tradition auf Innovation.
+                        Felix Leonhard, der jüngste Sohn von Ralph und Isolde Leonhard, hat sich für eine Ausbildung zum Winzer entschieden.
+                        Im Juli 2018  schloss er seine zweijährige Weiterbildung zum Techniker für Weinbau und Önologie erfolgreich ab.
+                        Seit August 2018 unterstützt er das Weingut mit dem Ziel den Weinbau im Loreleytal zu erhalten und stetig weiterzuentwickeln. Er hat seine eigene Weinlinie ins Leben gerufen, um dem Weingut neuen Schwung zu verleihen.
+                        Dabei setzt er vor allem auf Nachhaltigkeit.
+                        Gemeinsam soll das Weingut innovativ eine Generation weitergetragen werden, ohne den Blick auf die Tradition zu verlieren.
                     </p>
                 </div>
             </div>

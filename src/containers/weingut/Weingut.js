@@ -1,17 +1,14 @@
 import React from "react";
-import ImageImport from "../../components/structure/ImageImport";
-import { Link } from "react-router-dom";
+// import ImageImport from "../../components/structure/ImageImport";
+// import { Link } from "react-router-dom";
 
 const Weingut = () => {
     return (
         <div className="weingut defaultsite" id="allgemein">
-            <div className="titleimage-container" style={{
+            <div className="titleimage-container background-weingut" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Titelbild.jpeg'})`
             }}>
-                
             </div>
-            
-      
             
             <div className="textbox-titleimage">
                 <h1>Weingut</h1>

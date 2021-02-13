@@ -3,17 +3,21 @@ import "./weine.css"
 import ImageImport from "../../components/structure/ImageImport";
 
 const Weine = () => {
-    React.useLayoutEffect(() => {
-        window.scrollTo(0, 0)
-    });
+    // React.useLayoutEffect(() => {
+    //     window.scrollTo(0, 0)
+    // });
     return (
         <div className="defaultsite">
-            <div className="titleimage-container">
+            {/* <div className="titleimage-container">
                 <ImageImport
                     img={process.env.PUBLIC_URL + "/img/Weine_QP.png"}
                     alt="Weine_Qualitätspyramide"
                     className="weine_image"
                 />
+            </div> */}
+            <div className="titleimage-container background-weine-qp" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weine_QP.png'})`
+            }}>
             </div>
 
             {/* <h1>Qualitätspyramide</h1> */}

@@ -1,8 +1,13 @@
-.weine_image {
+.background-weine-qp{
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 3vh;
+}
+/* .weine_image {
     display: block;
     text-align: center;
-    margin: 5% auto 2% auto;
-}
+    margin: 5% auto 3% auto;
+} */
 
 .weine-container {
     display: flex;

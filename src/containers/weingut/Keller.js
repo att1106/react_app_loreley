@@ -4,12 +4,9 @@ import ImageImport from "../../components/structure/ImageImport";
 const Keller = () => {
     return (
         <div className="defaultsite" id="keller">
-            <div className="titleimage-container">
-                <ImageImport
-                    img={process.env.PUBLIC_URL + "/img/Weingut_Keller_Titelbild.jpeg"}
-                    alt="Weingut_Keller"
-                    className="titleimage"
-                />
+         <div className="titleimage-container background-keller" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Keller_Titelbild.jpeg'})`
+            }}>
             </div>
 
             <div className="textbox-titleimage">

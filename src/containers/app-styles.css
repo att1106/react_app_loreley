@@ -44,8 +44,7 @@ font-size: 1.5rem;
   margin-top: 8%;
   margin-bottom: 1%;
   height: 70vh;
-  background-size: cover;
-  background-position: top center;
+  background-repeat: no-repeat;
 }
 /* .titleimage {
   width: 100%; 

@@ -18,7 +18,7 @@ const Start = () => {
     return (
         <div className="defaultsite">
 
-            <div className="titleimage-container" style={{
+            <div className="titleimage-container background-start" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Startseite_Titelbild.jpeg'})`
             }}>
 

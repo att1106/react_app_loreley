@@ -1,3 +1,9 @@
+.background-start{
+    background-size: cover;
+    background-position: top center;
+}
+
+
 .startseite-box{
     background-color:white;
     border-radius: 7px;
@@ -6,7 +12,6 @@
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 5%;
-
     text-align: center;
 }
 
