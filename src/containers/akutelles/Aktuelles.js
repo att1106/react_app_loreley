@@ -18,7 +18,7 @@ const Aktuelles = () => {
                 />
             </div> */}
 
-            <div className="titleimage-container" style={{
+            <div className="titleimage-container background-aktuelles" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Home_Titelbild.jpg'})`
             }}>
             </div>
