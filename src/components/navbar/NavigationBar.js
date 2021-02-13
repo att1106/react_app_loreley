@@ -59,12 +59,12 @@ const NavigationBar = () => {
             <Link to="/weingut#vinothek" className="nav-link navbarlink">Vinothek</Link>
           </NavDropdown>
 
-          <Nav.Link className="navbarlink navelement" href={process.env.PUBLIC_URL}>
+          <Nav.Link className="navbarlink navelement logo" href={process.env.PUBLIC_URL}>
             <ImageImport
               img={process.env.PUBLIC_URL + "/img/Logo_White.jpg"}
               className="nav-logo"
               alt="Logo"
-              width={80}
+              width={75}
             />
           </Nav.Link>
 

@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 } */
 
-.defaultsite p {
+.defaultsite p, .defaultsite table, .defaultsite ul {
 margin-right: 5%;
 margin-left: 5%; 
 font-size: 1.5rem;
@@ -24,6 +24,7 @@ font-size: 1.5rem;
 .defaultsite h1 {
     text-align: center;
 }
+
 
 /* Textboxes */
 .textbox-titleimage, .textbox{

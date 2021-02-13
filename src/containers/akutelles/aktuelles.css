@@ -1,15 +1,34 @@
-.oeffnungszeiten {
-    text-align: center;
-}
+
 
 .textbox-titleimage {
     min-height: 50vh;
 }
 
+
+
+/* Termine */
 #termine {
     position: relative;
-
 }
+
+.termine-table {
+    display: inline-block;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.termine-table td {
+    padding-right: 2vw;
+}
+.termine-end{
+    font-weight: bold;
+}
+
+
+/* Öffnungszeiten */
+.oeffnungszeiten-list {
+    list-style-type:none;
+}
+
 
 /* #aktuelles-text, #termine, #oeffnungszeiten{
     background-color:  #dddddd;

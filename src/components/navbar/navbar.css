@@ -10,13 +10,17 @@
     margin-right: 7%;
     font-size: large;
     font-weight: bold;
-    top: 0;
-    
+    top: 0;    
   }
   .navbarlink {
     color: black; 
     margin-left: 8%;
     margin-right: 8%;
+  }
+
+  .logo {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .navbarlink.nav-link.weine {

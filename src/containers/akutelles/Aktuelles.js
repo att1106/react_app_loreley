@@ -1,8 +1,7 @@
 import React from "react";
 import Termine from "./Termine";
 import Oeffnungszeiten from "./Oeffnungszeiten";
-import ImageImport from "../../components/structure/ImageImport";
-import Accordion from "../../components/structure/Accordion";
+// import ImageImport from "../../components/structure/ImageImport";
 import "./aktuelles.css";
 
 const Aktuelles = () => {
@@ -11,16 +10,23 @@ const Aktuelles = () => {
 
         <div className="defaultsite aktuelles" id="aktuelles">
 
-            <div className="titleimage-container">
+            {/* <div className="titleimage-container">
                 <ImageImport
                     img={process.env.PUBLIC_URL + "/img/Home_Titelbild.jpg"}
                     alt="Home_Titelbild"
                     className="titleimage"
                 />
+            </div> */}
+
+            <div className="titleimage-container" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Home_Titelbild.jpg'})`
+            }}>
             </div>
 
             <div id="aktuelles-text" className="textbox-titleimage">
                 <h1>Aktuelles</h1>
+                <br/>
+                <br/>
                 <p>
                     Liebe Weinfreunde, <br />
                     auch vor uns machen die Coronaregeln nicht halt.
