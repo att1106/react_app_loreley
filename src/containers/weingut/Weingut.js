@@ -6,17 +6,21 @@ const Weingut = () => {
     return (
         <div className="weingut defaultsite" id="allgemein">
             <div className="titleimage-container background-weingut" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Titelbild.jpeg'})`
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Titelbild.JPG'})`
             }}>
             </div>
-            
+
             <div className="textbox-titleimage">
                 <h1>Weingut</h1>
                 <p>
                     Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
-                    Seit mehr als 100 Jahren bewirtschaften wir in den Steillagen des wünderschönen Oberen Mittelrheintals bereits mit viel Liebe und Expertise eigene Weinberge. Der Betrieb wird momentan in der 5. Generation von Ralph und Isolde Leonhard geführt. Seit August 2018 ist auch der jüngste Sohn Felix mit dabei.
-                    Er hat in Veitshöchheim seinen Techniker für Weinbau und Önologie gemacht und bringt nun frischen Wind in den Familienbetrieb. Aber auch Sohn Philipp, der als Bauingenieur arbeitet, ist immer zu Stelle, wenn helfende Hände benötigt werden – eben ein echtes Familienunternehmen.
-            </p>
+                    Bereits seit mehr als 100 Jahren bewirtschaftet die Familie in den Steillagen des wunderschönen Oberen Mittelrheintals mit viel Liebe und Expertise eigene Weinberge.
+                </p>
+                <p>
+                    Die Arbeit im Weinberg, die Traubenlese und -verarbeitung, sowie die Weinbereitung wird in Familienhand durchgeführt.
+                    Hier wird darauf geachtet, den perfekten Zeitpunkt der Lese und später der Abfüllung genau abzustimmen, um die Qualität vom Weinberg in die Flasche zu bringen.
+                    Im Weingut und in der Vinothek ist es selbstverständlich, dass die Weine vor dem Kauf probiert werden können.
+                </p>
             </div>
 
         </div>

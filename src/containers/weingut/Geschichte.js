@@ -16,16 +16,21 @@ const Geschichte = () => {
                 <h1>Geschichte</h1>
                 <p>
                     Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
-                    Seit mehr als 100 Jahren bewirtschaften wir in den Steillagen des wünderschönen Oberen Mittelrheintals bereits mit viel Liebe und Expertise eigene Weinberge. Der Betrieb wird momentan in der 5. Generation von Ralph und Isolde Leonhard geführt. Seit August 2018 ist auch der jüngste Sohn Felix mit dabei.
-                    Er hat in Veitshöchheim seinen Techniker für Weinbau und Önologie gemacht und bringt nun frischen Wind in den Familienbetrieb. Aber auch Sohn Philipp, der als Bauingenieur arbeitet, ist immer zu Stelle, wenn helfende Hände benötigt werden – eben ein echtes Familienunternehmen.
-             </p>
+                </p>
+                <p>
+                    Das „Stammhaus“ befand sich vor mehr als 100 Jahren in der Altstadt von St. Goarshausen.
+                    Durch den Bau der Eisenbahnstrecke, musste dieses Haus abgerissen werden und man zog in ein Haus auf die dem Rhein zugewandte Seite der Altstadt.
+                    Hier war auf kleinstem Raum Weinkeller, Kelterstation und Abfüllung untergebracht.
+                    Als sich die Gelegenheit zur Expansion ergab, wurde der Keller unterhalb des heutigen Rathauses gepachtet, wo man deutlich bessere Arbeitsbedingungen hatte. Durch mehrfache Hochwasserereignisse und durch Vergrößerung der Produktion, merkte man schnell, dass hier auch nicht der geeignete Ort war. In den fünfziger Jahren entschloss man sich daher in der Nastätter Strasse, einen Neubau des Kellers und der Arbeitshalle zu errichten.
+                    Seitdem befindet sich hier der Firmensitz.
+                </p>
             </div>
 
             {/* Generation 1*/}
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_1.png"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_1.JPG"}
                         alt="Weingut_Generation_1"
                         className="generation_image"
                     />
@@ -43,7 +48,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_2.png"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_2.JPG"}
                         alt="Weingut_Generation_2"
                         className="generation_image"
                     />
@@ -91,7 +96,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_4.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_4.JPG"}
                         alt="Weingut_Generation_4"
                         className="generation_image"
                     />
@@ -110,7 +115,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_5.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_5.jpeg"}
                         alt="Weingut_Generation_5"
                         className="generation_image"
                     />
@@ -129,7 +134,7 @@ const Geschichte = () => {
             <div className="container defaultsite">
                 <div className="container_image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_6.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_6.jpeg"}
                         alt="Weingut_Generation_6"
                         className="generation_image"
                     />

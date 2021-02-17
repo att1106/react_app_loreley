@@ -5,7 +5,7 @@ const Keller = () => {
     return (
         <div className="defaultsite" id="keller">
          <div className="titleimage-container background-keller" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Keller_Titelbild.jpeg'})`
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Keller_Titelbild.JPG'})`
             }}>
             </div>
 

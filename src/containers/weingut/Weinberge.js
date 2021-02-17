@@ -13,9 +13,9 @@ const Weinberge = () => {
             <div className="textbox-titleimage">
                 <h1>Weinberge</h1>
                 <p>
-                    Wir bewirtschaften zurzeit zehn Hektar in den Steillagen der Mittelrheinhänge, verteilt auf drei Lagen.
-                    Unsere Weinkultur lebt von den Schieferböden, die für unsere besondere mineralische Weinqualität sorgen.
-                    Auf ihnen wird die Sonnenwärme gespeichert, so dass unsere Reben in idealem Klima die nötige Kraft für unsere Weine liefern.
+                    Die Loreley-Kellerei bewirtschaftet zurzeit zehn Hektar Weinberge, verteilt auf drei Einzellagen in den steilen sonnendurchfluteten Hängen des Loreleytals. 
+                    Die Weinkultur lebt von den Schieferböden, die für besondere mineralische Weinqualität sorgen. Auf ihnen wird die Sonnenwärme gespeichert, so dass die Reben in idealem Klima die nötige Kraft für die Weine liefern. 
+                    Zahlreiche seltene Tier- und Pflanzenarten, wie die Smaragdeidechse oder wilde Orchideen und mediterrane Kräuter fühlen sich hier heimisch. 
                 </p>
             </div>
 
