@@ -23,36 +23,64 @@ const Footer = () => {
   return (
     <footer>
       <div>
+        {/* social websites */}
         <p>
           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Loreley-Kellerei-244489822309556"><em className="socialicon fa-lg"><FontAwesomeIcon icon={faFacebook} /></em></a>
           <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/loreleykellerei?igshid=p3k6kyseb2vt"><em className="socialicon fa-lg"><FontAwesomeIcon icon={faInstagram} /></em></a>
           <a target="_blank" rel="noopener noreferrer" href="mailto:Loreley-kellerei@t-online.de"><em className="socialicon fa-lg"><FontAwesomeIcon icon={faEnvelope} /></em></a>
         </p>
+        <hr className="footer-hr" />
+
+        {/* adresses */}
         <div className="footer-address">
           <p>Wir freuen uns auf Ihren Besuch </p>
           <a target="_blank" rel="noopener noreferrer" href={weingutAddress}>
-            in unserem Weingut<em className="socialicon fa-lg"><FontAwesomeIcon icon={faMapMarkerAlt} /></em>
-          </a> 
+            in unserem Weingut<em className="mapsicon fa-lg"><FontAwesomeIcon icon={faMapMarkerAlt} /></em>
+          </a>
+          <br />
           <a target="_blank" rel="noopener noreferrer" href={vinothekAddress}>
-            in unserer Vinothek<em className="socialicon fa-lg"><FontAwesomeIcon icon={faMapMarkerAlt} /></em>
+            in unserer Vinothek<em className="mapsicon fa-lg"><FontAwesomeIcon icon={faMapMarkerAlt} /></em>
           </a>
         </div>
+        <hr className="footer-hr" />
 
-        <Link to="/impressum" className="footerelements">
-          <strong>Impressum</strong>
-        </Link>
-        <Link to="/datenschutz" className="footerelements">
-          <strong>Datenschutz</strong>
-        </Link>
-        <Link to="/agb" className="footerelements">
-          <strong>AGB</strong>
-        </Link>
-        <Link to="/agrarumwelt-und-klimamassnahmen" className="footerelements">
-          <strong>Agrarumwelt- und Klimamaßnahmen</strong>
-        </Link>
-        <p>
-          Loreley-Kellerei Leonhard; Nastätter Str. 9, 56346 Sankt Goarshausen; Tel. 06771 2659; E-mail: Loreley-kellerei@t-online.de
-      </p>
+        {/* impressum etc. */}
+
+        <div>
+          <ul className="footer-list">
+            <li>
+              <Link to="/impressum" className="footer-list-element">
+                <strong>Impressum</strong>
+              </Link>
+            </li>
+            <li>
+              <Link to="/datenschutz" className="footer-list-element">
+                <strong>Datenschutz</strong>
+              </Link>
+            </li>
+            <li>
+              <Link to="/agbs" className="footer-list-element">
+                <strong>AGB</strong>
+              </Link>
+            </li>
+            <li>
+              <Link to="/agrarumwelt-und-klimamassnahmen" className="footer-list-element">
+                <strong>Agrarumwelt- und Klimamaßnahmen</strong>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <hr className="footer-hr" />
+        
+        <div>
+          <ul className="footer-contact-list">
+            <li className="footer-contact-list-element">Loreley-Kellerei Leonhard</li>
+            <li className="footer-contact-list-element">Nastätter Str. 9, 56346 Sankt Goarshausen</li>
+            <li className="footer-contact-list-element">Tel. 06771 2659</li>
+            <li className="footer-contact-list-element">E-mail: Loreley-kellerei@t-online.de</li>
+          </ul>
+        </div>
         <p>Copyright ⓒ {year}</p>
       </div>
     </footer>

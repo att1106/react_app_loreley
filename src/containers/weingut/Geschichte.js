@@ -7,7 +7,7 @@ const Geschichte = () => {
         <div className="geschichte defaultsite" id="geschichte">
 
             <div className="titleimage-container background-geschichte" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Geschichte_Titelbild.png'})`
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Geschichte_Titelbild.jpeg'})`
             }}>
 
             </div>

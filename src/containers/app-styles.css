@@ -1,88 +1,69 @@
-
 html {
-    font-family: "Montserrat", sans-serif;
-  }
+  font-family: "Montserrat", sans-serif;
+}
 body {
-    background: white;
-    padding: 0 0;
-  }
+  background: white;
+  padding: 0 0;
+}
 
-  footer {
-    margin-bottom: 0;
-  }
-/* default page style*/ 
-/* .defaultsite {
-  overflow: hidden;
-} */
-
-.defaultsite p, .defaultsite table, .defaultsite ul {
-margin-right: 5%;
-margin-left: 5%; 
-font-size: 1.5rem;
+footer {
+  margin-bottom: 0;
 }
 
 .defaultsite h1 {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* Textboxes */
-.textbox-titleimage, .textbox{
+.textbox-titleimage,
+.textbox {
   background-color: #dddddd;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 3%;
-  margin-top: 1%;
-  padding-bottom: 1rem;
-  /* padding-bottom: 1rem; */
 }
-
 
 /* Title-Images */
-.titleimage-container{
-  width: 100%;  
-  margin-top: 8%;
-  margin-bottom: 1%;
-  height: 70vh;
+.titleimage-container {
   background-repeat: no-repeat;
 }
-/* .titleimage {
-  width: 100%; 
-} */
-  /* Deskopt, Laptop Size 1024px*/
-/* @media only screen and (min-width: 64em)  {
-  h1{
-    margin-bottom: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    
+/* Mobile max. 480px */
+@media only screen and (max-width: 480px) {
+  
+  
+}
+
+
+/* Desktop min. 1024px */
+@media only screen and (min-width: 1024px) {
+
+  body {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
   }
-  .titleimage-container{
-   height: 90vh; 
-   max-height: 90vh;  
-   width: 100vw; 
-   background-position: top center;
-   background-size: cover;
+
+  /* defaultsite */
+  .defaultsite p,
+  .defaultsite table,
+  .defaultsite ul {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 1.3rem;
   }
-  .titleimage {
-  /* overflow: hidden;
-  object-fit: fill; */
-  /* width: 100%;
-  height: 90%;
-  padding: 4vh 0 0 0;
-  } */
-/* } */ 
-/* @media only screen and (min-width: 1200px)  {
-  .titleimage-container{
-   height: 80vh; 
-   max-height: 80vh;   
+
+  /* Title-Images */
+  .titleimage-container {
+    max-width: 1600px;
+    width: 100vw;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    height: 75vh;
   }
-  .titleimage {
-  overflow: hidden;
-  /* object-fit: cover; */
-  /* height: 90%;
-  padding: 2% 0 0 0;
-  margin: 0;
-  } 
-  }*/
+
+  /* Textboxes */
+  .textbox-titleimage,
+  .textbox {
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    padding: 2rem 0;
+  }
+}
 
