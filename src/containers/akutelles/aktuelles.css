@@ -26,7 +26,9 @@
 @media only screen and (max-width: 1024px) {
     /* Termine */
     .termine-table td {
-        padding-right: 1vw;
+        text-align: left;
+        padding-top: 2vh;
+        padding-right: 5vw;        
     }
 }
 
@@ -45,6 +47,6 @@
         padding-right: 10vw;
     }
     .termine-table td {
-        padding-right: 2vw;
+        padding-right: 5vw;
     }
 }
