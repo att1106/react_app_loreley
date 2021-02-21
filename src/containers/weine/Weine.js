@@ -106,9 +106,9 @@ const Weine = () => {
                 <div className="weine-container_text">
                     <h1>Old but Gold - Über 50 Jahre alte Reben</h1>
                     <p>
-                        Unser ältester Weinberg am Fuße des Loreleyfelsens..
+                        Unser ältester Weinberg am Fuße des Loreleyfelsens.
                         <br />
-                        Diesem Weinberg widmen wir eine eingene Linie.
+                        Diesem Weinberg widmen wir eine eigene Linie.
                     </p>
                 </div>
                 <div className="weine-container_image_2">

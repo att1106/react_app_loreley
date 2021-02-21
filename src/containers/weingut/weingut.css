@@ -1,63 +1,89 @@
+/* titleimages */
+.background-weingut, .background-geschichte, .background-keller{
+    background-size: cover;
+    background-position: center;
+}
+.background-weinberge{
+    background-size: cover;
+    background-position: bottom center;
+}
+
+/* container */
+.container, .container-center {
+    display: flex;
+    text-align: justify;
+    background-color: #dddddd;
+}
+
+/* Weinberg */
 .weinberg_text {
     text-align: left;
 }
+/* Vinothek */
 .vinothek-link {
     color: black;
     font-weight: bold;
     text-decoration: underline;
 }
-@media only screen and (min-width: 64em) {
-    .background-weingut, .background-geschichte, .background-keller{
-        background-size: cover;
-        background-position: center;
-    }
-    .background-weinberge{
-        background-size: cover;
-        background-position: bottom center;
-    }
+
+/* Mobile max. 480px */
+@media only screen and (max-width: 480px) {
+
     .container,
     .container-center {
-        display: flex;
-        flex-wrap: wrap;
-        /* border: 3px solid black; */
-        margin: 2% 0;
-        max-width: 100%;
+        flex-wrap: wrap;       
+        max-width: 100vw;
+    }
+    .container_image {
+        width: 100vw;
+        max-width: 100vw;
+        max-height: 35vh; 
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    /* Geschichte  */
+    .generation_image {
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Desktop min. 1024px */
+@media only screen and (min-width: 1024px) {
+    .container,
+    .container-center {
+        flex-wrap: wrap;       
+        margin: 4vh 0;
+        max-width: 100vw;
         justify-content: center;
-        background-color: #dddddd;
-        /* height: 40rem; */
-        /* margin: 15px; */
     }
     .container {
         align-items: flex-start;
     }
+    /* center images in height next to text in Weinberge, Keller and Vinothek */
     .container-center {
         align-items: center;
     }
     .container_image {
-        /* border: 3px solid blue; */
         width: 30%;
         max-width: 50%;
-        margin: 10px;
+        margin-top: 2vh;
         text-align: center;
     }
     .container_text {
         width: 65%;
         max-width: 80%;
         margin-top: 2vh;
-        /* padding: 2rem 0; */
+        text-align: justify;
     }
     /* Geschichte  */
     .generation_image {
-        /* border: 3px solid blue; */
         width: 80%;
-        /* height: 60%; */
         max-width: 80%;
-        margin: 5%;
-        margin-right: 0;
-        /* border: 1px solid black; */
-        height: 27rem;
-        padding-left: auto;
-        padding-right: auto;
+        margin: 0 10% 2vh 10%;
     }
     /* Weinberge, Vinothek */
     .weinberge_image {
