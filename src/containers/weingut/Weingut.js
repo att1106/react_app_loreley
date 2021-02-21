@@ -3,6 +3,8 @@ import React from "react";
 // import { Link } from "react-router-dom";
 
 const Weingut = () => {
+    const weingutAddress = "https://www.google.de/maps/place/Loreley-Kellerei+Leonhard+Weingut/@50.157667,7.7141598,17z/data=!4m5!3m4!1s0x47be75ec6c57e33d:0xe1913f9139b37283!8m2!3d50.157667!4d7.7163538";
+    
     return (
         <div className="weingut defaultsite" id="allgemein">
             <div className="titleimage-container background-weingut" style={{
@@ -21,6 +23,7 @@ const Weingut = () => {
                     Hier wird darauf geachtet, den perfekten Zeitpunkt der Lese und später der Abfüllung genau abzustimmen, um die Qualität vom Weinberg in die Flasche zu bringen.
                     Im Weingut und in der Vinothek ist es selbstverständlich, dass die Weine vor dem Kauf probiert werden können.
                 </p>
+                <p>Besuchen Sie uns gerne vor Ort! <a className="weingut-address" href={weingutAddress}>Hier geht es zur Wegbeschreibung.</a></p>
             </div>
 
         </div>

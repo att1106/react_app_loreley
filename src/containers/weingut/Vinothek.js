@@ -4,6 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import ImageImport from "../../components/structure/ImageImport";
 
 const Vinothek = () => {
+    const vinothekAddress = "https://www.google.de/maps/place/Vinothek+Loreley+an+der+F%C3%A4hre+St.+Goarshausen/@50.1537162,7.7159134,17z/data=!3m1!4b1!4m5!3m4!1s0x47be7584c2e2061d:0x6ff4234863f23de6!8m2!3d50.1537162!4d7.7181074";
 
     return (
         <div className="container-center defaultsite" id="vinothek">
@@ -29,6 +30,8 @@ const Vinothek = () => {
                     Hierüber informieren wir Sie auf
                     <Link className="vinothek-link" to="/home#aktuelles"> Aktuelles</Link>.
                 </p>
+                <p>Wir freuen uns Sie hier zu empfangen! <a className="weingut-address" href={vinothekAddress}>Hier geht es zur Wegbeschreibung.</a></p>
+         
             </div>
 
 

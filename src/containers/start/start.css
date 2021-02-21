@@ -19,6 +19,7 @@ button{
     /* titleimage */
     .background-start{
         margin-top: 10vh;
+        margin-bottom: 3vh;
         background-size: cover;
         background-position: top center;
     }
@@ -40,6 +41,7 @@ button{
         /* titleimage */
         .background-start{
             margin-top: 10vh;
+            margin-bottom: 3vh;
             background-size: cover;
             background-position: top center;
         }
@@ -51,6 +53,15 @@ button{
             margin-bottom: 10vw;
             text-align: center;
         }
+}
+
+
+/* max. 1024px landscape */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .background-start{
+        margin-top: 15vh;
+        height: 60vh;
+    }
 }
 
 /* Desktop min. 1024px */

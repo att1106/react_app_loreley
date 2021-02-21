@@ -14,10 +14,10 @@ const Weingut_main = () => {
     return (
         <div>
             <Weingut />
+            <Vinothek />
             <Geschichte />
             <Weinberge />
             <Keller />
-            <Vinothek />
         </div>
     );
 }
