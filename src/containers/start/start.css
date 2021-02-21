@@ -1,22 +1,65 @@
+ /* titleimage */
 .background-start{
     background-size: cover;
     background-position: top center;
 }
 
-
 .startseite-box{
     background-color:white;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
-    padding: 2rem;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-bottom: 5%;
-    text-align: center;
 }
-
 button{
     background-color: grey !important;
     border-color: grey !important;
 }
 
+/* Mobile max. 480px */
+@media only screen and (max-width: 480px) {
+    /* titleimage */
+    .background-start{
+        margin-top: 10vh;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .startseite-box{
+        padding: 1rem;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 10vw;
+        text-align: center;
+    }
+}
+
+/* Tablet min. 480 max. 1024px */
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+    .background-start{
+        margin-top: 10vh;
+    }
+        /* titleimage */
+        .background-start{
+            margin-top: 10vh;
+            background-size: cover;
+            background-position: top center;
+        }
+    
+        .startseite-box{
+            padding: 1rem;
+            margin-right: 5vw;
+            margin-left: 5vw;
+            margin-bottom: 10vw;
+            text-align: center;
+        }
+}
+
+/* Desktop min. 1024px */
+@media only screen and (min-width: 1024px) {
+    .startseite-box{
+        padding: 2rem;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        margin-bottom: 5vw;
+        text-align: center;
+    }
+}

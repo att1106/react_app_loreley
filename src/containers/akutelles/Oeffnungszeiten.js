@@ -6,7 +6,7 @@ const Oeffnungszeiten = () => {
 
             <h1>Öffnungszeiten</h1>
 
-            <p>Unsere Winteröffnungszeiten ab 1. Dezember bis 28. Februar:</p>
+            <p className="info-textbox">Unsere Winteröffnungszeiten ab 1. Dezember bis 28. Februar:</p>
             <p>Im Weingut:</p>
             <ul className = "oeffnungszeiten-list">
                 <li>Mo.-Fr. 9 Uhr bis 17.30 Uhr</li>

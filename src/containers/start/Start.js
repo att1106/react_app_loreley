@@ -30,7 +30,7 @@ const Start = () => {
                     Unser Online-Shop hat rund um die Uhr für Sie geöffnet!
                 </p>
                 <Link to="/home#aktuelles">
-                    <Button>Hier finden Sie unsere aktuellen Infos</Button>
+                    <Button>Hier finden Sie alle aktuellen Infos</Button>
                 </Link>
             </div>
 
