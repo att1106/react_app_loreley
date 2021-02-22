@@ -53,10 +53,10 @@ const NavigationBar = () => {
             show={menuOpen2}
             >
             <Link to="/weingut#allgemein" className="nav-link navbarlink">Weingut</Link>
+            <Link to="/weingut#vinothek" className="nav-link navbarlink">Vinothek</Link>
             <Link to="/weingut#geschichte" className="nav-link navbarlink">Geschichte</Link>
             <Link to="/weingut#weinberge" className="nav-link navbarlink">Weinberge</Link>
             <Link to="/weingut#keller" className="nav-link navbarlink">Keller</Link>
-            <Link to="/weingut#vinothek" className="nav-link navbarlink">Vinothek</Link>
           </NavDropdown>
 
           <Nav.Link className="navbarlink navelement logo" href={process.env.PUBLIC_URL}>
