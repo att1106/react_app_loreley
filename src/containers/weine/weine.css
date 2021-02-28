@@ -105,14 +105,15 @@
         max-height: 40vh;
     }
     .weine-container {
+        align-items: flex-start;
         margin-left: auto;
         margin-right: auto;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content : space-between;
+        justify-content : space-evenly;
         padding: 2vh;
         margin-bottom: 2vh;
-        height: 50vh;
+        height: auto
     }
     .weine-container h1{
         text-align: start;
@@ -121,7 +122,7 @@
     .weine-container_image_1 {
         width: 25vw;
         max-width: 30vw;
-        height: 45vh;
+        height: 40vh;
         order: 1;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -129,14 +130,19 @@
     .weine-container_text {
         width: 30vw;
         max-width: 35vw;
-        height: 45vh;
-        max-height: 50vh;
+        height: auto;
+        margin-top: 0;
+        margin-right: 2vw;
         order: 2;
+    }
+    .weine-container_text p {
+       margin-right: 0;
+       margin-left: 0;
     }
     .weine-container_image_2 {
         width: 30vw;
         max-width: 35vw;
-        height: 45vh;
+        height: 35vh;
         order: 3;
     }
     .qp-image{
@@ -165,17 +171,19 @@
     .weine-container_image_1 {
         width: 30vw;
         max-width: 30vw;
-        height: 50vh;
+        height: 45vh;
     }
     .weine-container_text {
         width: 30vw;
         max-width: 30vw;
         height: auto;
+        margin-right: 1vw;
+        margin-left: 1vw;
     }
     .weine-container_image_2 {
         width: 35vw;
         max-width: 35vw;
-        height: 50vh;
+        height: 45vh;
     }
     .qp-image{
         height: 100%;
