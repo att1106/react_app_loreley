@@ -106,6 +106,7 @@ const NavigationBar = () => {
             onClick={()=> setMenuOpen3(m => !m)}
           >
             <Link to="/weine" className="nav-link navbarlink weine" onClick={()=> setMenuOpen3(false)}>Qualitätspyramide</Link>
+            <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={()=> setMenuOpen3(false)}>Weinlinie</Link>
           </NavDropdown>
 
           {/* Shop */}

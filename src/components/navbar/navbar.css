@@ -73,6 +73,7 @@
     color: black; 
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
   }
 
   .logo {
@@ -81,7 +82,8 @@
   }
 
   .navbarlink.nav-link.weine {
-    padding-right: 2rem;
+    margin-left: 0;
+    width: 12rem;
   }
 
   .nav-logo {
