@@ -9,6 +9,10 @@
 
 @media only screen and (max-width: 991px) {
 
+  .navbar-mobile {
+    max-height: 18vh;
+  }
+
   .headnavbar {
     display: flex;
     align-items: baseline;
@@ -16,7 +20,7 @@
     text-align: center;
     font-weight: bold;
     top: 0;    
-    max-height: 50vh;
+    max-height: 60vh;
     overflow-y: scroll;
   }
 

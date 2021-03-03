@@ -34,7 +34,7 @@
 
 
 /* Desktop min. 1024px */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     .textbox-titleimage {
         min-height: 50vh;
     }

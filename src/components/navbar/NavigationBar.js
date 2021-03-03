@@ -16,7 +16,7 @@ const NavigationBar = () => {
 
   return (
 
-    <Navbar fixed="top" bg="white" expand="lg">
+    <Navbar className="navbar-mobile" fixed="top" bg="white" expand="lg">
       {/* toggler */}
       <Navbar.Toggle 
         className="navbar-toggler" 

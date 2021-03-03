@@ -18,7 +18,7 @@ button{
 @media only screen and (max-width: 480px) {
     /* titleimage */
     .background-start{
-        margin-top: 10vh;
+        margin-top: 12vh;
         margin-bottom: 3vh;
         background-size: cover;
         background-position: top center;
@@ -36,7 +36,7 @@ button{
 /* Tablet min. 480 max. 1024px */
 @media only screen and (min-width: 480px) and (max-width: 1024px){
     .background-start{
-        margin-top: 10vh;
+        margin-top: 15vh;
     }
         /* titleimage */
         .background-start{
@@ -59,7 +59,7 @@ button{
 /* max. 1024px landscape */
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
     .background-start{
-        margin-top: 15vh;
+        margin-top: 18vh;
         height: 60vh;
     }
 }
