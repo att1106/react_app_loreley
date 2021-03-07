@@ -13,7 +13,7 @@ const Weine = () => {
             }}>
             </div>
 
-            <p>
+            <p className="textbox">
             Da wir uns zur Zeit in der Umstellung unserer Weinlinie befinden, finden Sie hier nur unsere neuen Weine der 6. Generation. 
             In unserem Onlineshop finden Sie jedoch alle  aktuell verfügbaren Weine. Wir arbeiten weiter an der Umstrukturierung. 
             Somit finden sich hier von Zeit zu Zeit weitere Weine ein. 
@@ -74,7 +74,7 @@ const Weine = () => {
                     />
                 </div>
                 <div className="weinlinie-container-text">
-                    <h1>Riesling Qba lieblich</h1>
+                    <h1>Riesling QbA lieblich</h1>
                     <p>
                         Coming soon...
                     </p>

@@ -123,7 +123,7 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>5. Generation – Ralph Leonhard </h1>
                     <p>
-                        Im Jahr 1993 übernahm dessen Sohn und heutiger Betriebsinhaber Ralph Leonhard, nach seiner Weiterbildung als Winzermeister, mit seiner Frau Isolde das Weingut.
+                        Im Jahr 1993 übernahm dessen Sohn und heutiger Betriebsinhaber Ralph Leonhard, nach seiner Weiterbildung zum Winzermeister, mit seiner Frau Isolde das Weingut.
                         Damals bewirtschaftete die Loreley-Kellerei zwei Hektar Weinberge. In den 90er Jahren stieg die Nachfrage nach regionalen Weinen.
                         Deshalb entschlossen sich Ralph und Isolde Leonhard weitere Weinberge im Loreleytal zu kaufen und den Schwerpunkt auf die Produktion von eigenen Weinen zu legen.
                         Mittlerweile bewirtschaftet die Loreley-Kellerei 10ha eigene Weinberge in den Steillagen des Loreleytals.

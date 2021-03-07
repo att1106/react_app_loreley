@@ -20,7 +20,7 @@ const Weingut = () => {
                 </p>
                 <p>
                     Die Arbeit im Weinberg, die Traubenlese und -verarbeitung, sowie die Weinbereitung wird in Familienhand durchgeführt.
-                    Hier wird darauf geachtet, den perfekten Zeitpunkt der Lese und später der Abfüllung genau abzustimmen, um die Qualität vom Weinberg in die Flasche zu bringen.
+                    Hier wird darauf geachtet, den perfekten Zeitpunkt der verschiedenen Arbeiten genau abzustimmen, um die Qualität vom Weinberg in die Flasche zu bringen.
                     Im Weingut und in der Vinothek ist es selbstverständlich, dass die Weine vor dem Kauf probiert werden können.
                 </p>
                 <p>Besuchen Sie uns gerne vor Ort! <a className="weingut-address" href={weingutAddress}>Hier geht es zur Wegbeschreibung.</a></p>

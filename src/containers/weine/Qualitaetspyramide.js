@@ -7,7 +7,7 @@ const Qualitaetspyramide = () => {
     //     window.scrollTo(0, 0)
     // });
     return (
-        <div className="defaultsite">
+        <div className="defaultsite" id="weine">
             {/* <div className="titleimage-container">
                 <ImageImport
                     img={process.env.PUBLIC_URL + "/img/Weine_QP.png"}

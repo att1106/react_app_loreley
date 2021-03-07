@@ -13,16 +13,20 @@ const NavigationBar = () => {
   const [menuOpen2, setMenuOpen2] = useState(false);
   const [menuOpen3, setMenuOpen3] = useState(false);
 
+  //   $('.navbar-nav>li>a').on('click', function(){
+  //     $('.navbar-collapse').collapse('hide');
+  // });
+
 
   return (
 
-    <Navbar className="navbar-mobile" fixed="top" bg="white" expand="lg">
+    <Navbar collapseOnSelect className="navbar-mobile" fixed="top" bg="white" expand="lg">
       {/* toggler */}
-      <Navbar.Toggle 
-        className="navbar-toggler" 
-        bg="white" 
+      <Navbar.Toggle
+        className="navbar-toggler"
+        bg="white"
         aria-controls="basic-navbar-nav"
-        />
+      />
 
       {/* logo for mobile and tablet screes */}
       <div className="logo-mobile">
@@ -37,7 +41,7 @@ const NavigationBar = () => {
       </div>
 
       {/* collapsing elements */}
-      <Navbar.Collapse>
+      <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="headnavbar justify-content-center">
 
           {/* Info */}
@@ -50,14 +54,17 @@ const NavigationBar = () => {
               setMenuOpen(false);
             }}
             show={menuOpen}
-            onClick={()=> setMenuOpen(m => !m)}
+            onClick={() => setMenuOpen(m => !m)}
           >
-            <Link to="/home#aktuelles" className="nav-link navbarlink" 
-            onClick={()=> {
+            <Link to="/home#aktuelles" className="nav-link navbarlink"
+              onClick={() => {
+                setMenuOpen(false)
+              }}> Aktuelles</Link>
+            <Link to="/home#termine" className="nav-link navbarlink" onClick={() => {
               setMenuOpen(false)
-            }}> Aktuelles</Link>
-            <Link to="/home#termine" className="nav-link navbarlink" onClick={()=> setMenuOpen(false)}>Termine</Link>
-            <Link to="/home#oeffnungszeiten" className="nav-link navbarlink" onClick={()=> setMenuOpen(false)}>Öffnungszeiten</Link>
+            }
+            }>Termine</Link>
+            <Link to="/home#oeffnungszeiten" className="nav-link navbarlink" onClick={() => setMenuOpen(false)}>Öffnungszeiten</Link>
           </NavDropdown>
 
           {/* Weingut */}
@@ -72,13 +79,13 @@ const NavigationBar = () => {
               setMenuOpen2(false);
             }}
             show={menuOpen2}
-            onClick={()=> setMenuOpen2(m => !m)}
+            onClick={() => setMenuOpen2(m => !m)}
           >
-            <Link to="/weingut#allgemein" className="nav-link navbarlink" onClick={()=> setMenuOpen2(false)} >Weingut</Link>
-            <Link to="/weingut#vinothek" className="nav-link navbarlink" onClick={()=> setMenuOpen2(false)}>Vinothek</Link>
-            <Link to="/weingut#geschichte" className="nav-link navbarlink" onClick={()=> setMenuOpen2(false)}>Geschichte</Link>
-            <Link to="/weingut#weinberge" className="nav-link navbarlink" onClick={()=> setMenuOpen2(false)}>Weinberge</Link>
-            <Link to="/weingut#keller" className="nav-link navbarlink" onClick={()=> setMenuOpen2(false)}>Keller</Link>
+            <Link to="/weingut#allgemein" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)} >Weingut</Link>
+            <Link to="/weingut#vinothek" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Vinothek</Link>
+            <Link to="/weingut#geschichte" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Geschichte</Link>
+            <Link to="/weingut#weinberge" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Weinberge</Link>
+            <Link to="/weingut#keller" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Keller</Link>
           </NavDropdown>
 
           <div className="logo-desktop">
@@ -102,11 +109,11 @@ const NavigationBar = () => {
               setMenuOpen3(false);
             }}
             show={menuOpen3}
-            onClick={()=> setMenuOpen3(false)}
-            onClick={()=> setMenuOpen3(m => !m)}
+            onClick={() => setMenuOpen3(false)}
+            onClick={() => setMenuOpen3(m => !m)}
           >
-            <Link to="/weine" className="nav-link navbarlink weine" onClick={()=> setMenuOpen3(false)}>Qualitätspyramide</Link>
-            <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={()=> setMenuOpen3(false)}>Weinlinie</Link>
+            <Link to="/weine" className="nav-link navbarlink weine" onClick={() => setMenuOpen3(false)}>Qualitätspyramide</Link>
+            <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={() => setMenuOpen3(false)}>Weinlinie</Link>
           </NavDropdown>
 
           {/* Shop */}
