@@ -8,6 +8,12 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar-notshow {
+    display: none;
+  }
+  .navbar-show {
+    display: contents;
+  }
 
   .navbar-mobile {
     max-height: 18vh;
@@ -51,6 +57,10 @@
 
 /* Desktop min. 1024px */
 @media only screen and (min-width: 992px) {
+  .navbar-notshow,
+  .navbar-show {
+    display: contents;
+  }
   .headnavbar {
     justify-content: center;
     align-items: baseline;
