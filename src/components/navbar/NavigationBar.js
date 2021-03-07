@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 // import { Link } from "react-router-dom";
 import { Container, Nav, Navbar, NavbarBrand, NavDropdown } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
@@ -8,6 +8,7 @@ import ImageImport from "../structure/ImageImport";
 import "./navbar.css"
 
 const NavigationBar = () => {
+  const contentRef = useRef();
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuOpen2, setMenuOpen2] = useState(false);
@@ -15,6 +16,24 @@ const NavigationBar = () => {
 
 
   const [navbarCollapse, setNavbarCollapse] = useState(false);
+
+  const handleClick = e => {
+    if (contentRef.current.contains(e.target)) {
+      // inside click
+      return;
+    }
+    // outside click
+    setNavbarCollapse(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
+
 
   return (
 
@@ -45,6 +64,7 @@ const NavigationBar = () => {
       <div
         className={navbarCollapse ? "navbar-show dropdown-menu" : "navbar-notshow dropdown-menu"}
         id="basic-navbar-nav"
+        ref={contentRef}
       >
         <Nav className="headnavbar justify-content-center">
 
