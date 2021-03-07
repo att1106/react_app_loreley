@@ -13,19 +13,19 @@ const NavigationBar = () => {
   const [menuOpen2, setMenuOpen2] = useState(false);
   const [menuOpen3, setMenuOpen3] = useState(false);
 
-  //   $('.navbar-nav>li>a').on('click', function(){
-  //     $('.navbar-collapse').collapse('hide');
-  // });
 
+  const [navbarCollapse, setNavbarCollapse] = useState(false);
 
   return (
 
     <Navbar collapseOnSelect className="navbar-mobile" fixed="top" bg="white" expand="lg">
       {/* toggler */}
       <Navbar.Toggle
-        className="navbar-toggler"
         bg="white"
         aria-controls="basic-navbar-nav"
+        onClick={() => {
+          setNavbarCollapse(n => !n);
+        }}
       />
 
       {/* logo for mobile and tablet screes */}
@@ -41,7 +41,11 @@ const NavigationBar = () => {
       </div>
 
       {/* collapsing elements */}
-      <Navbar.Collapse id="basic-navbar-nav">
+
+      <div
+        className={navbarCollapse ? "navbar-show dropdown-menu" : "navbar-notshow dropdown-menu"}
+        id="basic-navbar-nav"
+      >
         <Nav className="headnavbar justify-content-center">
 
           {/* Info */}
@@ -58,13 +62,17 @@ const NavigationBar = () => {
           >
             <Link to="/home#aktuelles" className="nav-link navbarlink"
               onClick={() => {
-                setMenuOpen(false)
+                setMenuOpen(false);
+                setNavbarCollapse(false);
               }}> Aktuelles</Link>
             <Link to="/home#termine" className="nav-link navbarlink" onClick={() => {
-              setMenuOpen(false)
-            }
-            }>Termine</Link>
-            <Link to="/home#oeffnungszeiten" className="nav-link navbarlink" onClick={() => setMenuOpen(false)}>Öffnungszeiten</Link>
+              setMenuOpen(false);
+              setNavbarCollapse(false);
+            }}>Termine</Link>
+            <Link to="/home#oeffnungszeiten" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen(false);
+              setNavbarCollapse(false);
+            }}>Öffnungszeiten</Link>
           </NavDropdown>
 
           {/* Weingut */}
@@ -81,11 +89,26 @@ const NavigationBar = () => {
             show={menuOpen2}
             onClick={() => setMenuOpen2(m => !m)}
           >
-            <Link to="/weingut#allgemein" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)} >Weingut</Link>
-            <Link to="/weingut#vinothek" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Vinothek</Link>
-            <Link to="/weingut#geschichte" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Geschichte</Link>
-            <Link to="/weingut#weinberge" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Weinberge</Link>
-            <Link to="/weingut#keller" className="nav-link navbarlink" onClick={() => setMenuOpen2(false)}>Keller</Link>
+            <Link to="/weingut#allgemein" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen2(false);
+              setNavbarCollapse(false);
+            }} >Weingut</Link>
+            <Link to="/weingut#vinothek" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen2(false);
+              setNavbarCollapse(false);
+            }}>Vinothek</Link>
+            <Link to="/weingut#geschichte" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen2(false);
+              setNavbarCollapse(false);
+            }}>Geschichte</Link>
+            <Link to="/weingut#weinberge" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen2(false);
+              setNavbarCollapse(false);
+            }}>Weinberge</Link>
+            <Link to="/weingut#keller" className="nav-link navbarlink" onClick={() => {
+              setMenuOpen2(false);
+              setNavbarCollapse(false);
+            }}>Keller</Link>
           </NavDropdown>
 
           <div className="logo-desktop">
@@ -112,14 +135,21 @@ const NavigationBar = () => {
             onClick={() => setMenuOpen3(false)}
             onClick={() => setMenuOpen3(m => !m)}
           >
-            <Link to="/weine" className="nav-link navbarlink weine" onClick={() => setMenuOpen3(false)}>Qualitätspyramide</Link>
-            <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={() => setMenuOpen3(false)}>Weinlinie</Link>
+            <Link to="/weine" className="nav-link navbarlink weine" onClick={() => {
+              setMenuOpen3(false);
+              setNavbarCollapse(false);
+            }
+            }>Qualitätspyramide</Link>
+            <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={() => {
+              setMenuOpen3(false);
+              setNavbarCollapse(false);
+            }}>Weinlinie</Link>
           </NavDropdown>
 
           {/* Shop */}
           <Nav.Link className="navbarlink navelement shop" target="_blank" rel="noopener noreferrer" href="https://loreley-kellerei.winitas-shop.de/">Shop</Nav.Link>
         </Nav>
-      </Navbar.Collapse>
+      </div>
 
     </Navbar>
 
