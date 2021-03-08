@@ -59,11 +59,6 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/agbs" className="footer-list-element">
-                <strong>AGB</strong>
-              </Link>
-            </li>
-            <li>
               <Link to="/agrarumwelt-und-klimamassnahmen" className="footer-list-element">
                 <strong>Agrarumwelt- und Klimamaßnahmen</strong>
               </Link>

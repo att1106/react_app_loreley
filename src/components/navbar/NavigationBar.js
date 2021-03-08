@@ -155,7 +155,7 @@ const NavigationBar = () => {
             onClick={() => setMenuOpen3(false)}
             onClick={() => setMenuOpen3(m => !m)}
           >
-            <Link to="/weine" className="nav-link navbarlink weine" onClick={() => {
+            <Link to="/weine/#qualitaetspyramide" className="nav-link navbarlink weine" onClick={() => {
               setMenuOpen3(false);
               setNavbarCollapse(false);
             }

@@ -21,7 +21,6 @@ import Weine from "./weine/Weine";
 import Impressum from "./impressum/Impressum";
 import Datenschutz from "./datenschutz/Datenschutz";
 import AgarumweltKlimaMassnahmen from "./agarumweltKlimaMassnahmen/AgarumweltKlimaMassnahmen";
-import Agbs from "./agbs/Agbs";
 function App() {
 
   return (
@@ -36,15 +35,16 @@ function App() {
           <Route exact path="/" component={Start} />
           <Route exact path="/home" component={Aktuelles} />
           <Route exact path="/weingut" exact component={Weingut_main} />
-          <Route exact path="/weine" exact component={Weine} />
+          <Route exact path="/weine" component={Weine} />
           <Route exact path="/impressum" exact component={Impressum} />
           <Route exact path="/datenschutz" exact component={Datenschutz} />
           <Route exact path="/agrarumwelt-und-klimamassnahmen" exact component={AgarumweltKlimaMassnahmen} />
-          <Route exact path="/agbs" exact component={Agbs} />
+
 
         </Switch>
     
       <Footer />
+
 
     </div>
   );
