@@ -83,8 +83,8 @@ const Weine = () => {
             <div className="weinlinie-container textbox">
                 <div className="weinlinie-container-image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg"}
-                        alt="Mittelrhein_Riesling_halbtrocken"
+                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_lieblich.jpg"}
+                        alt="Mittelrhein_Riesling_lieblich"
                         className="weinlinie-image"
                     />
                 </div>
@@ -241,7 +241,7 @@ const Weine = () => {
             <div className="weinlinie-container textbox">
                 <div className="weinlinie-container-image">
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg"}
                         alt="Loreley_Grauburgunder_Kabinett_trocken"
                         className="weinlinie-image"
                     />
@@ -273,7 +273,7 @@ const Weine = () => {
                         Am Gaumen spielt die Muskatnuss ein elegantes Spiel, ergänzt von der vollen Frucht gelber Birnen und grüner Äpfel.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F3" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F820" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
