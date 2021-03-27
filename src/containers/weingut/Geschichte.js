@@ -15,13 +15,13 @@ const Geschichte = () => {
             <div className="textbox-titleimage">
                 <h1>Geschichte</h1>
                 <p>
-                    Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
+                    Die Loreley-Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
                 </p>
                 <p>
                     Das „Stammhaus“ befand sich vor mehr als 100 Jahren in der Altstadt von St. Goarshausen.
-                    Durch den Bau der Eisenbahnstrecke, musste dieses Haus abgerissen werden und man zog in ein Haus auf die dem Rhein zugewandte Seite der Altstadt.
+                    Durch den Bau der Eisenbahnstrecke musste dieses Haus abgerissen werden und man zog in ein Haus auf die dem Rhein zugewandte Seite der Altstadt.
                     Hier war auf kleinstem Raum Weinkeller, Kelterstation und Abfüllung untergebracht.
-                    Als sich die Gelegenheit zur Expansion ergab, wurde der Keller unterhalb des heutigen Rathauses gepachtet, wo man deutlich bessere Arbeitsbedingungen hatte. Durch mehrfache Hochwasserereignisse und durch Vergrößerung der Produktion, merkte man schnell, dass hier auch nicht der geeignete Ort war. In den fünfziger Jahren entschloss man sich daher in der Nastätter Strasse, einen Neubau des Kellers und der Arbeitshalle zu errichten.
+                    Als sich die Gelegenheit zur Expansion ergab, wurde der Keller unterhalb des heutigen Rathauses gepachtet, mit dem bessere Arbeitsbedingungen geschaffen werden konnten. Durch mehrfache Hochwasserereignisse und durch Vergrößerung der Produktion merkte man schnell, dass hier auch nicht der geeignete Ort war. In den fünfziger Jahren entschloss man sich daher in der Nastätter Strasse, einen Neubau des Kellers und der Arbeitshalle zu errichten.
                     Seitdem befindet sich hier der Firmensitz.
                 </p>
             </div>
@@ -39,7 +39,7 @@ const Geschichte = () => {
                     <h1>1. Generation – Philipp Leonhard</h1>
                     <p>
                         Den Grundstein für die lange Weinbautradition der Leonhards legte Philipp Leonhard im Jahr 1890.
-                        Er erwarb ein Haus inklusive Weinberg in St. Goarshausen  Neben der Haltung von Ziegen, war der Weinbau im Loreleytal für ihn die einzige Möglichkeit das Geld als Tagelöhner aufzubessern.
+                        Er erwarb ein Haus inklusive Weinberg in St. Goarshausen. Neben der Haltung von Ziegen, war der Weinbau im Loreleytal für ihn die einzige Möglichkeit das Geld als Tagelöhner aufzubessern.
                         Der Weinberg machte sich bezahlt und somit nahm er weitere kleine Weinberge dazu.
                     </p>
                 </div>
@@ -126,7 +126,7 @@ const Geschichte = () => {
                         Im Jahr 1993 übernahm dessen Sohn und heutiger Betriebsinhaber Ralph Leonhard, nach seiner Weiterbildung zum Winzermeister, mit seiner Frau Isolde das Weingut.
                         Damals bewirtschaftete die Loreley-Kellerei zwei Hektar Weinberge. In den 90er Jahren stieg die Nachfrage nach regionalen Weinen.
                         Deshalb entschlossen sich Ralph und Isolde Leonhard weitere Weinberge im Loreleytal zu kaufen und den Schwerpunkt auf die Produktion von eigenen Weinen zu legen.
-                        Mittlerweile bewirtschaftet die Loreley-Kellerei 10ha eigene Weinberge in den Steillagen des Loreleytals.
+                        Mittlerweile bewirtschaftet die Loreley-Kellerei zehn Hektar eigene Weinberge in den Steillagen des Loreleytals.
                     </p>
                 </div>
             </div>

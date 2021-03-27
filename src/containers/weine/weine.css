@@ -1,5 +1,5 @@
 .background-weine-qp {
-    background-size: contain;
+    background-size:contain;
     background-position: center center;
     margin-bottom: 3vh;
 }
@@ -473,7 +473,7 @@
         height: 80vh;
         margin-right: auto;
         margin-left: auto;
-        width: 90vw;
+        width: 100%;
         margin-top: 35vh;
         margin-bottom: 15vh;
     }

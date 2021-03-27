@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./weine.css"
+
 import ImageImport from "../../components/structure/ImageImport";
 
+
+
 const Qualitaetspyramide = () => {
-    // React.useLayoutEffect(() => {
-    //     window.scrollTo(0, 0)
-    // });
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+ 
+     
+
     return (
+       
         <div className="defaultsite" id="qualitaetspyramide">
             {/* <div className="titleimage-container">
                 <ImageImport

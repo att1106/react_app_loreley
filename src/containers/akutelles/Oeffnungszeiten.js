@@ -6,7 +6,7 @@ const Oeffnungszeiten = () => {
 
             <h1>Öffnungszeiten</h1>
 
-            <p className="info-textbox">Unsere Winteröffnungszeiten ab 1. Dezember bis 28. Februar:</p>
+            <p className="info-textbox">Unsere aktuellen Öffnungszeiten:</p>
             <p>Im Weingut:</p>
             <ul className = "oeffnungszeiten-list">
                 <li>Mo.-Fr. 9 Uhr bis 17.30 Uhr</li>
@@ -16,7 +16,7 @@ const Oeffnungszeiten = () => {
             
             <p>In der Vinothek:</p>
             <ul className = "oeffnungszeiten-list">
-                <li>Dezember, Januar und Februar Winterpause - wir bedienen Sie in dieser Zeit gerne im Weingut!</li>
+                <li>Wegen Corona ist unsere Vinothek aktuell leider geschlossen, gerne empfangen wir Sie in unserem Weingut.</li>
             </ul>
          
         </div>

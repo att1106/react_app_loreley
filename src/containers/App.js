@@ -7,6 +7,8 @@ import "./app-styles.css"
 // Importing React Router
 import { Route, Switch } from "react-router-dom";
 
+
+
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 //Start
@@ -24,25 +26,28 @@ import AgarumweltKlimaMassnahmen from "./agarumweltKlimaMassnahmen/AgarumweltKli
 function App() {
 
   return (
-    
+
 
     <div>
-      
-        <Header />
-     
-        <Switch>
+
+      <Header />
+  
+        <Switch >
 
           <Route exact path="/" component={Start} />
-          <Route exact path="/home" component={Aktuelles} />
+          <Route exact path="/home" component={Aktuelles} />f
           <Route exact path="/weingut" exact component={Weingut_main} />
-          <Route exact path="/weine" component={Weine} />
+          <Route exact path="/weine" render component={Weine} />
           <Route exact path="/impressum" exact component={Impressum} />
           <Route exact path="/datenschutz" exact component={Datenschutz} />
           <Route exact path="/agrarumwelt-und-klimamassnahmen" exact component={AgarumweltKlimaMassnahmen} />
 
 
         </Switch>
-    
+
+
+
+
       <Footer />
 
 

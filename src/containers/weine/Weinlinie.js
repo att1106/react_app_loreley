@@ -49,7 +49,7 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Riesling QbA trocken</h1>
                     <p>
-                        Im Glas präsentiert sich der Riesling mit einem ansprechend hellen Strohgelb.
+                        Im Glas präsentiert sich der Riesling mit einem ansprechend hellen strohgelb.
                         In der Nase frische Aromen von Zitrusfrüchten und grünem Apfel. Am Gaumen
                         zeigt er sich frisch spritzig mit rassigem Charakter, schönen Fruchtaromen und
                         einer angenehmen Mineralität.
@@ -302,7 +302,7 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Spätburgunder Holzfass trocken</h1>
                     <p>
-                        Der Wein wurde auf der Maische vergoren und anschließend 12 Monate im 500l Tonneau aus Eichenholz gelagert.
+                        Der Wein wurde auf der Maische vergoren und anschließend 12 Monate im 500 Liter Tonneau aus Eichenholz gelagert.
                         Neben Kirsche, Himbeere und roter Johannisbeere findet sich auch die Eichenholznote des Tonneau im Geschmack wieder.
                         Die ausgewogenen Tannine und der konzentrierte Körper sind das Ergebnis konsequenter Handarbeit.
                     </p>

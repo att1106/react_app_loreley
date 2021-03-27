@@ -59,7 +59,7 @@ const Weinberge = () => {
                     <br />
                             <br />
                     Hier befindet sich auch unser steilster Weinberg, der mit seinen 90 Prozent Steigung eine ganz besondere
-                    Herausforderung Für Mensch und Maschine ist.
+                    Herausforderung für Mensch und Maschine ist.
                     <br />
                             <br />
                     In dieser Lage bevorzugen wir den Anbau von Riesling und Spätburgunder.

@@ -19,7 +19,7 @@ const Aktuelles = () => {
                 <h1>Aktuelles</h1>
                 <p className="info-textbox">
                     Liebe Weinfreunde, <br />
-                    auch vor uns machen die Coronaregeln nicht halt.
+                    auch vor uns machen die Coronaregeln nicht Halt.
                     Deshalb ist unser Weinverkauf zur Zeit nur im Weingut Nastätter Straße 9 in St. Goarshausen
                     geöffnet. Wir freuen uns auf Ihren Besuch!
                 </p>

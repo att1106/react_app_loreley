@@ -15,11 +15,11 @@ const Weingut = () => {
             <div className="textbox-titleimage">
                 <h1>Weingut</h1>
                 <p>
-                    Die Loreley Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
+                    Die Loreley-Kellerei Leonhard ist ein Familienbetrieb mit eigenem Weinbau.
                     Bereits seit mehr als 100 Jahren bewirtschaftet die Familie in den Steillagen des wunderschönen Oberen Mittelrheintals mit viel Liebe und Expertise eigene Weinberge.
                 </p>
                 <p>
-                    Die Arbeit im Weinberg, die Traubenlese und -verarbeitung, sowie die Weinbereitung wird in Familienhand durchgeführt.
+                    Die Arbeit im Weinberg, die Traubenlese und deren Verarbeitung, sowie die Weinbereitung wird in Familienhand durchgeführt.
                     Hier wird darauf geachtet, den perfekten Zeitpunkt der verschiedenen Arbeiten genau abzustimmen, um die Qualität vom Weinberg in die Flasche zu bringen.
                     Im Weingut und in der Vinothek ist es selbstverständlich, dass die Weine vor dem Kauf probiert werden können.
                 </p>

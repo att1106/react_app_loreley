@@ -8,6 +8,7 @@ import ImageImport from "../structure/ImageImport";
 import "./navbar.css"
 
 const NavigationBar = () => {
+
   const contentRef = useRef();
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -155,15 +156,19 @@ const NavigationBar = () => {
             onClick={() => setMenuOpen3(false)}
             onClick={() => setMenuOpen3(m => !m)}
           >
-            <Link to="/weine/#qualitaetspyramide" className="nav-link navbarlink weine" onClick={() => {
+            <Link to="/weine#qualitaetspyramide" className="nav-link navbarlink weine"
+            onClick={() => {
               setMenuOpen3(false);
               setNavbarCollapse(false);
             }
-            }>Qualitätspyramide</Link>
+            }
+            
+            >Qualitätspyramide</Link>
             <Link to="/weine#weinlinie" className="nav-link navbarlink weine" onClick={() => {
               setMenuOpen3(false);
               setNavbarCollapse(false);
             }}>Weinlinie</Link>
+          
           </NavDropdown>
 
           {/* Shop */}

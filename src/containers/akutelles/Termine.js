@@ -5,7 +5,7 @@ const Termine = () => {
         <div className="termine textbox" id="termine">
             <h1 >Termine</h1>
             <p className="info-textbox">
-                Wir sind optimistisch und planen folgende Termine  für 2021 - über Durchführung kann aber jeweils nur kurzfristig entschieden werden.
+                Wir sind optimistisch und planen folgende Termine  für 2021 - über die tatsächliche Durchführung kann aber jeweils nur kurzfristig entschieden werden.
             </p>
 
             <table className="termine-table">
