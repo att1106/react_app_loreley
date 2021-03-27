@@ -6,15 +6,15 @@ import ImageImport from "../../components/structure/ImageImport";
 
 
 const Qualitaetspyramide = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
- 
-     
 
     return (
-       
+
         <div className="defaultsite" id="qualitaetspyramide">
+           <div className="place-titleimage">
+
+           </div>
+
+           
             {/* <div className="titleimage-container">
                 <ImageImport
                     img={process.env.PUBLIC_URL + "/img/Weine_QP.png"}
@@ -53,7 +53,7 @@ const Qualitaetspyramide = () => {
                         className="qp-image-rohling"
                     />
                 </div>
-                
+
             </div>
             {/* QP-kupfer */}
             <div className="weine-container defaultsite">

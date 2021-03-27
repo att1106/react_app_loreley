@@ -13,12 +13,15 @@ const Start = () => {
         alt="Startseite"
         className="titleimage"
     />
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
+    // React.useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
 
     return (
         <div className="defaultsite">
+            <div className="place-titleimage">
+
+            </div>
 
             <div className="titleimage-container background-start" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Startseite_Titelbild.jpeg'})`

@@ -1,3 +1,4 @@
+
 .background-weine-qp {
     background-size:contain;
     background-position: center center;
@@ -47,6 +48,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .weinlinie-header-image {
@@ -453,8 +455,6 @@
         max-height: 25vh;
         width: 100%;
         max-width: 100vw;
-        margin-top: 15vh;
-        margin-bottom: 5vh;
     }
     .weinlinie-header-image-container {
         width: 5%;
@@ -469,13 +469,11 @@
         margin-top: 15vh;
     }
     .background-weinlinie {
-        margin-top: 35vh;
         height: 80vh;
         margin-right: auto;
         margin-left: auto;
         width: 100%;
-        margin-top: 35vh;
-        margin-bottom: 15vh;
+        margin-bottom: 2vh;
     }
     .weinlinie-container {
         max-width: 95vw;

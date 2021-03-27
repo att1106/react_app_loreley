@@ -5,6 +5,9 @@ import ImageImport from "../../components/structure/ImageImport";
 const Weinberge = () => {
     return (
         <div className="weinberge defaultsite" id="weinberge">
+            <div className="place-titleimage">
+
+            </div>
             <div className="titleimage-container background-weinberge" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Weinberge_Titelbild.png'})`
             }}>

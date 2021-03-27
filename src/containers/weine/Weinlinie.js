@@ -11,6 +11,9 @@ const Weine = () => {
     return (
 
         <div className="defaultsite" id="weinlinie">
+            <div className="place-titleimage">
+
+            </div>
 
             <div className="titleimage-container background-weinlinie" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weine_Weinlinie_Titelbild.png'})`
@@ -27,12 +30,12 @@ const Weine = () => {
                 <div className="weinlinie-header-image-container">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_schwarz.png"}
-                        alt="Weine QP schwarz" 
+                        alt="Weine QP schwarz"
                         className="weinlinie-header-image"
                     />
                 </div>
                 <div>
-                  <h1>Mittelrhein</h1> 
+                    <h1>Mittelrhein</h1>
                 </div>
             </div>
 
@@ -145,14 +148,14 @@ const Weine = () => {
 
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
-                <ImageImport
+                    <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_kupfer.png"}
                         alt="Weine QP kupfer"
                         className="qp-image"
                     />
                 </div>
                 <div>
-                  <h1>Loreley</h1> 
+                    <h1>Loreley</h1>
                 </div>
             </div>
 
@@ -279,14 +282,14 @@ const Weine = () => {
 
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
-                <ImageImport
+                    <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_silber.png"}
                         alt="Weine QP silber"
                         className="qp-image"
                     />
                 </div>
                 <div>
-                  <h1>Loreleyfelsen</h1> 
+                    <h1>Loreleyfelsen</h1>
                 </div>
             </div>
 
@@ -353,14 +356,14 @@ const Weine = () => {
 
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
-                <ImageImport
+                    <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_QP_gold.png"}
                         alt="Weine QP gold"
                         className="qp-image"
                     />
                 </div>
                 <div>
-                  <h1>Loreley Edel</h1> 
+                    <h1>Loreley Edel</h1>
                 </div>
             </div>
 

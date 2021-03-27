@@ -9,6 +9,9 @@ const Aktuelles = () => {
     return (
 
         <div className="defaultsite aktuelles" id="aktuelles">
+            <div className="place-titleimage">
+
+            </div>
 
             <div className="titleimage-container background-aktuelles" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Home_Titelbild.jpg'})`

@@ -5,6 +5,9 @@ import ImageImport from "../../components/structure/ImageImport";
 const Geschichte = () => {
     return (
         <div className="geschichte defaultsite" id="geschichte">
+            <div className="place-titleimage">
+
+            </div>
 
             <div className="titleimage-container background-geschichte" style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/img/Weingut_Geschichte_Titelbild.jpeg'})`
@@ -27,7 +30,7 @@ const Geschichte = () => {
             </div>
 
             {/* Generation 1*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_1.JPG"}
@@ -45,7 +48,7 @@ const Geschichte = () => {
                 </div>
             </div>
             {/* Generation 2*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_2.JPG"}
@@ -71,7 +74,7 @@ const Geschichte = () => {
                 </div>
             </div>
             {/* Generation 3*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_3.jpg"}
@@ -93,7 +96,7 @@ const Geschichte = () => {
                 </div>
             </div>
             {/* Generation 4*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_4.jpg"}
@@ -112,7 +115,7 @@ const Geschichte = () => {
                 </div>
             </div>
             {/* Generation 5*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_5.jpeg"}
@@ -131,7 +134,7 @@ const Geschichte = () => {
                 </div>
             </div>
             {/* Generation 6*/}
-            <div className="container defaultsite">
+            <div className="container generation defaultsite">
                 <div className="container_image">
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weingut_Geschichte_Generation_6.jpeg"}
@@ -150,11 +153,6 @@ const Geschichte = () => {
                     </p>
                 </div>
             </div>
-
-
-
-
-
 
 
         </div>

@@ -36,7 +36,7 @@
 /* Desktop min. 1024px */
 @media only screen and (min-width: 1025px) {
     .textbox-titleimage {
-        min-height: 50vh;
+        min-height: 40vh;
     }
     .info-textbox{
         padding-top: 1rem;
