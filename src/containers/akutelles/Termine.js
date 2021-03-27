@@ -23,7 +23,7 @@ const Termine = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>23. – 24. Mai 2021 (Pfingsten)</td>
+                            <td>23. - 24. Mai 2021 (Pfingsten)</td>
                             <td>Hoffest oder Hoffest to go</td>
                         </tr>
                         <tr>
@@ -31,7 +31,7 @@ const Termine = () => {
                             <td>Nachtbummel in der Römerstrasse in Nastätten</td>
                         </tr>
                         <tr>
-                            <td>30. - 31 Juli 2021</td>
+                            <td>30. - 31. Juli 2021</td>
                             <td>Weinwiesenfest in Katzenelnbogen</td>
                         </tr>
                         <tr>
@@ -39,7 +39,7 @@ const Termine = () => {
                             <td>Rhein in Flammen</td>
                         </tr>
                         <tr>
-                            <td>27. -  28. November 2021 </td>
+                            <td>27. - 28. November 2021 </td>
                             <td>Weihnachtsmarkt in Nastätten</td>
                         </tr>
                         <tr>
@@ -54,7 +54,7 @@ const Termine = () => {
                 </table>
                 <br />
                 <br />
-                <p className="termine-end"> Wir halten Sie auf dem Laufenden! </p>
+                <p> Wir halten Sie auf dem Laufenden! </p>
             </div>
         </div>
     );

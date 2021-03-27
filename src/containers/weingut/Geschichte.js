@@ -23,8 +23,8 @@ const Geschichte = () => {
                 <p>
                     Das „Stammhaus“ befand sich vor mehr als 100 Jahren in der Altstadt von St. Goarshausen.
                     Durch den Bau der Eisenbahnstrecke musste dieses Haus abgerissen werden und man zog in ein Haus auf die dem Rhein zugewandte Seite der Altstadt.
-                    Hier war auf kleinstem Raum Weinkeller, Kelterstation und Abfüllung untergebracht.
-                    Als sich die Gelegenheit zur Expansion ergab, wurde der Keller unterhalb des heutigen Rathauses gepachtet, mit dem bessere Arbeitsbedingungen geschaffen werden konnten. Durch mehrfache Hochwasserereignisse und durch Vergrößerung der Produktion merkte man schnell, dass hier auch nicht der geeignete Ort war. In den fünfziger Jahren entschloss man sich daher in der Nastätter Strasse, einen Neubau des Kellers und der Arbeitshalle zu errichten.
+                    Hier waren auf kleinstem Raum Weinkeller, Kelterstation und Abfüllung untergebracht.
+                    Als sich die Gelegenheit zur Expansion ergab, wurde der Keller unterhalb des heutigen Rathauses gepachtet, mit dem bessere Arbeitsbedingungen geschaffen werden konnten. Durch mehrfache Hochwasserereignisse und durch die Vergrößerung der Produktion wurde jedoch schnell deutlich, dass auch hier nicht der geeignete Ort war. In den fünfziger Jahren reifte daher der Entschluss, in der Nastätter Strasse einen Neubau des Kellers und der Arbeitshalle zu errichten.
                     Seitdem befindet sich hier der Firmensitz.
                 </p>
             </div>
@@ -85,13 +85,13 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>3. Generation – Wilhelm Leonhard </h1>
                     <p>
-                        Sein Sohn Wilhelm folgte erst anderen Pfaden.
+                        Sein Sohn Wilhelm Leonhard folgte erst anderen Pfaden.
                         Er ging zunächst dem Bäckerhandwerk nach, ehe er sich Anfang der 30er Jahre dem Weinbau verschrieb und den Betrieb weiter ausbaute.
                         Die schwere Zeit des zweiten Weltkriegs hat die Firma gut überstanden, wohl auch weil Wein damals in den Dörfern als Tauschobjekt gern gesehen war.
-                        Auch der kleine Gemischtwarenladen, in dem neben den eigenen Weinen auch Spirituosen, Tabakwaren, Feinkost und Süßigkeiten verkauft wurden, konnte sich auch lange nach Kriegsende halten.
+                        Der kleine Gemischtwarenladen, in dem neben den eigenen Weinen auch Spirituosen, Tabakwaren, Feinkost und Süßigkeiten verkauft wurden, konnte sich noch lange nach Kriegsende halten.
                     </p>
                     <p>
-                        Die damals noch zahlreichen Gaststätten im Umkreis zählten zu den Hauptabnehmern, aber auch Kunden aus weiter entfernten Regionen, wie zum Beispiel aus dem Ruhrgebiet wussten den Loreleywein zu schätzen.
+                        Die damals noch zahlreichen Gaststätten im Umkreis zählten zu den Hauptabnehmern, aber auch Kunden aus weiter entfernten Regionen, wie zum Beispiel aus dem Ruhrgebiet, wussten den Loreleywein zu schätzen.
                     </p>
                 </div>
             </div>
@@ -107,10 +107,10 @@ const Geschichte = () => {
                 <div className="container_text">
                     <h1>4. Generation – Georg Leonhard </h1>
                     <p>
-                        Sein ältester Sohn Georg übernahm 1959 mit seiner Frau Ursula das Weingut und den Gemischtwarenladen.
+                        Sein ältester Sohn Georg Leonhard übernahm 1959 mit seiner Frau Ursula das Weingut und den Gemischtwarenladen.
                         Der in den 60er Jahren aufkommende Tourismus im Loreleytal machte den Weinverkauf zum lohnenden Betriebszweig, den Georg und Ursula Leonhard stetig ausbauten.
                         Da die Weinmenge aus zwei Hektar eigenen Weinbergen nicht ausreichte, überwog weiterhin in dieser Zeit der Verkauf von zugekauftem Fasswein.
-                        Die Arbeitsfläche im alten Rathaus in der Rheinstraße war bald zu klein und so wurde in der Nastätter Straße, dem heutigen Firmensitz, die Kellerei und später auch das Wohnhaus errichtet.
+                        Die Arbeitsfläche im alten Rathaus in der Rheinstraße war bald zu klein. So wurde in der Nastätter Straße, dem heutigen Firmensitz, die Kellerei und später auch das Wohnhaus errichtet.
                     </p>
                 </div>
             </div>

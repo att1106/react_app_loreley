@@ -214,6 +214,10 @@
     .container {
         align-items: center;
     }
+
+    /* .container h1{
+        text-align: start;
+    } */
     /* center images in height next to text in Weinberge, Keller and Vinothek */
     .container-center {
         align-items: center;

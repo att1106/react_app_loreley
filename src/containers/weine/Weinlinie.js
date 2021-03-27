@@ -22,7 +22,7 @@ const Weine = () => {
 
             <div className="textbox-weinlinie">
                 Da wir uns zur Zeit in der Umstellung unserer Weinlinie befinden, finden Sie hier nur unsere neuen Weine der 6. Generation.
-                In unserem Onlineshop finden Sie jedoch alle  aktuell verfügbaren Weine. Wir arbeiten weiter an der Umstrukturierung.
+                In unserem Onlineshop finden Sie jedoch alle aktuell verfügbaren Weine. Wir arbeiten weiter an der Umstrukturierung.
                 Somit finden sich hier von Zeit zu Zeit weitere Weine ein.
             </div>
 
@@ -52,9 +52,9 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Riesling QbA trocken</h1>
                     <p>
-                        Im Glas präsentiert sich der Riesling mit einem ansprechend hellen strohgelb.
-                        In der Nase frische Aromen von Zitrusfrüchten und grünem Apfel. Am Gaumen
-                        zeigt er sich frisch spritzig mit rassigem Charakter, schönen Fruchtaromen und
+                        Im Glas präsentiert sich der Riesling mit einem ansprechend hellen Strohgelb.
+                        In der Nase heben sich frische Aromen von Zitrusfrüchten und grünem Apfel hervor. Am Gaumen
+                        zeigt er sich frisch spritzig mit typischem Charakter, schönen Fruchtaromen und
                         einer angenehmen Mineralität.
                     </p>
 
@@ -75,7 +75,7 @@ const Weine = () => {
                     <h1>Riesling QbA halbtrocken</h1>
                     <p>
                         Ein feines Spiel von Säure und Süße. Mineralisch und frisch mit Aromen von Pfirsich
-                        und gelben Früchten. Durch das feine mineralische Fruchtspiel und einer angenehmen Restsüße wird dem Wein Komplexität verliehen.
+                        und gelben Früchten. Durch das feine mineralische Fruchtspiel mit angenehmer Restsüße wird dem Wein Komplexität verliehen.
                     </p>
 
                     <Button href=" https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F720" className="weinlinie-button">Zum Shop</Button>
@@ -113,9 +113,9 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Rosé QbA halbtrocken</h1>
                     <p>
-                        Der perfekte Sommerwein - frisch, fruchtig und leicht.
-                        Angenehmes Säurespiel. Aromen von Erdbeeren, die
-                        sich am Gaumen und in der Nase ausbreiten.
+                        Der perfekte Sommerwein - frisch, fruchtig und leicht - mit
+                        feinem Säurespiel. Aromen von Erdbeeren breiten sich 
+                        am Gaumen und in der Nase aus.
                         Die angenehme Restsüße sorgt für Trinkfreude.
                     </p>
 
@@ -136,7 +136,7 @@ const Weine = () => {
                     <h1>Rotling QbA lieblich</h1>
                     <p>
                         Rotling bezeichnet man einen Wein, bei dem weiße und rote Trauben zusammen gepresst
-                        werden. Farblich erscheint dieser Wein in einem strahlend hellem Rot.
+                        werden. Farblich erscheint dieser Wein in strahlend hellem Rot.
                         Durch seine Restsüße und seine fruchtigen Aromen eignet er sich gut gekühlt für warme Sommertage.
                     </p>
 
@@ -273,7 +273,7 @@ const Weine = () => {
                     <p>
                         Aromatisch, leicht, spritzig und trocken. Der Muskatduft kitzelt in der Nase, umrahmt von reifen
                         Früchten und druckvoller Würze.
-                        Am Gaumen spielt die Muskatnuss ein elegantes Spiel, ergänzt von der vollen Frucht gelber Birnen und grüner Äpfel.
+                        Am Gaumen spielt die Muskatnuss ein elegantes Spiel, ergänzt von der vollen Frucht gelber Birnen und grünem Apfel.
                     </p>
 
                     <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F820" className="weinlinie-button">Zum Shop</Button>
@@ -306,7 +306,7 @@ const Weine = () => {
                     <h1>Spätburgunder Holzfass trocken</h1>
                     <p>
                         Der Wein wurde auf der Maische vergoren und anschließend 12 Monate im 500 Liter Tonneau aus Eichenholz gelagert.
-                        Neben Kirsche, Himbeere und roter Johannisbeere findet sich auch die Eichenholznote des Tonneau im Geschmack wieder.
+                        Neben den Aromen von Kirsche, Himbeere und roter Johannisbeere findet sich auch die Eichenholznote des Tonneau im Geschmack wieder.
                         Die ausgewogenen Tannine und der konzentrierte Körper sind das Ergebnis konsequenter Handarbeit.
                     </p>
 
@@ -326,8 +326,8 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Spätburgunder Barrique trocken</h1>
                     <p>
-                        Der Wein wurde auf der Maische vergoren und anschließend 12 Monate im 225l Barrique aus Eichenholz gelagert.
-                        Die Aromen erinnern an Brombeeren, Vanille und Kirsche. Die angenehme Tanninstruktur verleiht ihm Fülle mit einem druckvollen Ende.
+                        Der Wein wurde auf der Maische vergoren und anschließend 12 Monate im 225 Liter Barrique aus Eichenholz gelagert.
+                        Die Aromen erinnern an Brombeere, Vanille und Kirsche. Die angenehme Tanninstruktur verleiht ihm Fülle mit einem druckvollen Ende.
                         Die ausgewogenen Tannine und der konzentrierte Körper sind das Ergebnis konsequenter Handarbeit.
                     </p>
 

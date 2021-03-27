@@ -18,7 +18,7 @@ const Weinberge = () => {
                 <p>
                     Die Loreley-Kellerei bewirtschaftet zurzeit zehn Hektar Weinberge, verteilt auf drei Einzellagen in den steilen sonnendurchfluteten Hängen des Loreleytals.
                     Die Weinkultur lebt von den Schieferböden, die für besondere mineralische Weinqualität sorgen. Auf ihnen wird die Sonnenwärme gespeichert, so dass die Reben in idealem Klima die nötige Kraft für die Weine liefern.
-                    Zahlreiche seltene Tier- und Pflanzenarten, wie die Smaragdeidechse oder wilde Orchideen und mediterrane Kräuter fühlen sich hier heimisch.
+                    Zahlreiche seltene Tier- und Pflanzenarten, wie die Smaragdeidechse oder wilde Orchideen, und mediterrane Kräuter fühlen sich hier heimisch.
                 </p>
 
 
@@ -37,11 +37,8 @@ const Weinberge = () => {
                         <p>
                             Die Lage Nocherner Brünnchen liegt hoch über dem Rheintal, eingebettet in die Landschaft des Taunus.
                             Unsere Weinberge verteilen sich in der zwölf Hektar großen Flurbereinigung,
-                            in der ca. fünf Hektar von uns selbst bewirtschaftet werden.
-                    <br />
-                            <br />
-                    Auch hier findet man wieder, den für unsere Region typischen Schieferboden, der für unsere
-                    besondere mineralische Weinqualität sorgt.
+                            in der ca. fünf Hektar von uns selbst bewirtschaftet werden. Auch hier findet man wieder den für unsere Region typischen Schieferboden, der für unsere
+                            besondere mineralische Weinqualität sorgt.
                     </p>
                     </div>
 
@@ -59,13 +56,9 @@ const Weinberge = () => {
                         <h1>Wellmich, Burg Maus</h1>
                         <p>
                             Auch direkt gegenüber der Burg Maus im Stadtteil Wellmich liegt ein Teil unserer Weinberge.
-                    <br />
-                            <br />
-                    Hier befindet sich auch unser steilster Weinberg, der mit seinen 90 Prozent Steigung eine ganz besondere
-                    Herausforderung für Mensch und Maschine ist.
-                    <br />
-                            <br />
-                    In dieser Lage bevorzugen wir den Anbau von Riesling und Spätburgunder.
+                            Hier befindet sich unser steilster Weinberg, der mit seinen 90 Prozent Steigung eine ganz besondere
+                            Herausforderung für Mensch und Maschine ist. 
+                            In dieser Lage bevorzugen wir den Anbau von Riesling und Spätburgunder.
                     </p>
                     </div>
                 </div>
@@ -83,10 +76,10 @@ const Weinberge = () => {
                         <p>
                             Der einzig wahre Loreleywein wächst in unserem ältesten Weinberg, der sich unmittelbar an den
                             sagenumwobenen Loreleyfelsen anschmiegt. Der Weinberg wurde im Jahr 1964 gepflanzt.
-                            Damals war es üblich, die Weinberge in Terrassenlage anzulegen, um die Arbeit,
-                            für damalige Verhältnisse, so effektiv wie möglich zu gestalten. Das bedeutet für uns heute aber auch,
-                            dass der gesamte Weinberg von Hand bewirtschaftet werden muss und der Einsatz unserer Raupe nur
-                            bedingt möglich ist. Auch das ist ein Grund, warum unser Loreley Edel ein ganz besonderer Wein ist.
+                            Damals war es üblich, die Weinberge in Terrassenlage anzulegen, um die Arbeit 
+                            für damalige Verhältnisse so effektiv wie möglich zu gestalten. Das bedeutet für uns heute aber,
+                            dass der gesamte Weinberg von Hand bewirtschaftet werden muss und der Einsatz der Weinbergsraupe nur
+                            bedingt möglich ist. Das ist mit ein Grund, warum unser Loreley Edel ein ganz besonderer Wein ist.
                     </p>
                     </div>
                 </div>

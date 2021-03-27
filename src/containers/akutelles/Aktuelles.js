@@ -21,11 +21,12 @@ const Aktuelles = () => {
             <div id="aktuelles-text" className="textbox-titleimage">
                 <h1>Aktuelles</h1>
                 <p className="info-textbox">
-                    Liebe Weinfreunde, <br />
-                    auch vor uns machen die Coronaregeln nicht Halt.
-                    Deshalb ist unser Weinverkauf zur Zeit nur im Weingut Nastätter Straße 9 in St. Goarshausen
-                    geöffnet. Wir freuen uns auf Ihren Besuch!
-                </p>
+                    Liebe Weinfreundinnen, liebe Weinfreunde, <br />
+                    auch vor uns machen die Corona-Regeln nicht Halt.
+                    Deshalb ist unser Weinverkauf zur Zeit nur im Weingut, Nastätter Straße 9 in St. Goarshausen, oder im Online-Shop möglich.
+                <br/>
+                 Wir freuen uns auf Ihren Besuch!
+               </p>
             </div>
             <Termine />
 
