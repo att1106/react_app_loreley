@@ -108,11 +108,8 @@
         height: 35vh;
         max-height: 50vh; 
         /* margin-top: 2vh; */
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
-    /* .container_text {
-        margin-bottom: 3vh;
-    } */
 
     /* Geschichte  */
     .generation_image {
@@ -226,14 +223,19 @@
         width: 30%;
         max-width: 50%;
         margin-top: 2vh;
+        margin-right: 5%;
         text-align: center;
     }
     .container_text {
         width: 65%;
         max-width: 80%;
         margin-top: 2vh;
-        text-align: justify;
     }
+    .container_text h1, .container_text p {
+        text-align: justify;
+        margin-left: 0%;
+    }
+
     /* Geschichte  */
     .generation_image {
         width: 80%;
