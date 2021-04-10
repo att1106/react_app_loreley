@@ -36,7 +36,8 @@
 }
 .textbox-weinlinie {
     /* width: 90vw; */
-    max-width: 100%;
+    max-width: 95%;
+    margin: auto;
     background: #dddddd;
     padding: 3vw;
     font-size: 1em;
