@@ -114,7 +114,7 @@ const Weine = () => {
                     <h1>Rosé QbA halbtrocken</h1>
                     <p>
                         Der perfekte Sommerwein - frisch, fruchtig und leicht - mit
-                        feinem Säurespiel. Aromen von Erdbeeren breiten sich 
+                        feinem Säurespiel. Aromen von Erdbeeren breiten sich
                         am Gaumen und in der Nase aus.
                         Die angenehme Restsüße sorgt für Trinkfreude.
                     </p>
@@ -213,10 +213,11 @@ const Weine = () => {
                         Aromen von Kirschen und Brombeeren geben diesem Spätburgunder Körper
                         und Leichtigkeit bei lebendigem Trinkfluss.
                     </p>
-                    <p>Aktuell ausverkauft</p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                        <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F121" className="weinlinie-button">Zum Shop</Button>
+
                 </div>
+
             </div>
 
             {/* Weißburgunder Kabinett trocken */}
