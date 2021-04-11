@@ -37,7 +37,7 @@ function App() {
           <Route exact path="/" component={Start} />
           <Route exact path="/home" component={Aktuelles} />f
           <Route exact path="/weingut" exact component={Weingut_main} />
-          <Route exact path="/weine" render component={Weine} />
+          <Route exact path="/weine"  component={Weine} />
           <Route exact path="/impressum" exact component={Impressum} />
           <Route exact path="/datenschutz" exact component={Datenschutz} />
           <Route exact path="/agrarumwelt-und-klimamassnahmen" exact component={AgarumweltKlimaMassnahmen} />
