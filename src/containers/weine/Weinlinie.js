@@ -1,12 +1,50 @@
-import React, { useCallback } from "react";
-import { FullScreen, useFullScreenHandle } from "react-full-screen";
+import React, { useState } from "react";
+
+import Lightbox from "react-image-lightbox"
+import "react-image-lightbox/style.css"
+
+
 import "./weine.css"
 import ImageImport from "../../components/structure/ImageImport";
 import Button from 'react-bootstrap/Button';
 
+const mittelrhein_riesling_trocken = <ImageImport
+key = {0}
+img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg"}
+alt="Mittelrhein_Riesling_trocken"
+className="weinlinie-image"
+/>
+
+// const wein_images = [
+//     mittelrhein_riesling_trocken, mittelrhein_riesling_halbtrocken
+// ]
+
+const images = [
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg", // Riesling trocken 0
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg", // Riesling halbtrocken 1
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_lieblich.jpg", // Riesling lieblich 2
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rose.jpg", // Rose halbtrocken 3
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rotling.jpg", // Rotling lieblich 4
+
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg", //Rotschiefer Riesling halbtrocken 5
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg", // Blauschiefer Riesling trocken 6
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg", //Spätburgunder trocken 7
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg", //Weißburgunder trocken 8
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg", //Grauburgunder trocken 9
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg", //Muskateller halbtrocken 10
+
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg", // Spätburgunder Holzfass trocken 11
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg", //Spätburgunder Barique trocken 12
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg", //Alte Reben Riesling 13 
+
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg" //Riesling Spätlese trocken 14
+]
+
+
 const Weine = () => {
 
-    const mittelrhein_riesling_trocken = useFullScreenHandle();
+    const [photoIndex, setPhotoIndex] = useState(0)
+    const [isOpen, setIsOpen] = useState(false)
 
     return (
 
@@ -26,6 +64,7 @@ const Weine = () => {
                 Somit finden sich hier von Zeit zu Zeit weitere Weine ein.
             </div>
 
+            {/* Mittelrhein */}
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
                     <ImageImport
@@ -39,10 +78,9 @@ const Weine = () => {
                 </div>
             </div>
 
-
             {/* Mittelrhein Riesling QbA trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(0)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg"}
                         alt="Mittelrhein_Riesling_trocken"
@@ -64,7 +102,7 @@ const Weine = () => {
 
             {/* Mittelrhein Riesling QbA halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(1)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg"}
                         alt="Mittelrhein_Riesling_halbtrocken"
@@ -84,7 +122,7 @@ const Weine = () => {
 
             {/* Mittelrhein Riesling Qba lieblich */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(2)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_lieblich.jpg"}
                         alt="Mittelrhein_Riesling_lieblich"
@@ -103,7 +141,7 @@ const Weine = () => {
 
             {/* Rosé QbA halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(3)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rose.jpg"}
                         alt="Mittelrhein_Rose"
@@ -125,7 +163,7 @@ const Weine = () => {
 
             {/* Rotling QbA lieblich */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(4)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rotling.jpg"}
                         alt="Mittelrhein_Rotling"
@@ -145,7 +183,7 @@ const Weine = () => {
             </div>
 
 
-
+            {/* Loreley */}
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
                     <ImageImport
@@ -161,9 +199,9 @@ const Weine = () => {
 
             {/* Rotschiefer Riesling Kabinett halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(5)}}>
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_trocken.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg"}
                         alt="Loreley_Rotschiefer_Riesling_Kabinett_halbtrocken "
                         className="weinlinie-image"
                     />
@@ -180,7 +218,7 @@ const Weine = () => {
 
             {/* Blauschiefer Riesling Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(6)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg"}
                         alt="Loreley_Blauschiefer_Riesling_Kabinett_trocken"
@@ -199,7 +237,7 @@ const Weine = () => {
 
             {/* Spätburgunder QbA trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(7)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg"}
                         alt="Loreley_Spätburgunder_trocken "
@@ -214,7 +252,7 @@ const Weine = () => {
                         und Leichtigkeit bei lebendigem Trinkfluss.
                     </p>
 
-                        <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F121" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F121" className="weinlinie-button">Zum Shop</Button>
 
                 </div>
 
@@ -222,7 +260,7 @@ const Weine = () => {
 
             {/* Weißburgunder Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(8)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg"}
                         alt="Loreley_Weißburgunder_trocken "
@@ -243,7 +281,7 @@ const Weine = () => {
 
             {/* Grauburgunder Kabinett trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(9)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg"}
                         alt="Loreley_Grauburgunder_Kabinett_trocken"
@@ -262,7 +300,7 @@ const Weine = () => {
 
             {/* Muskateller QbA trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(10)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg"}
                         alt="Loreley_Muskateller"
@@ -281,6 +319,8 @@ const Weine = () => {
                 </div>
             </div>
 
+
+            {/* Loreleyfelsen */}
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
                     <ImageImport
@@ -296,7 +336,7 @@ const Weine = () => {
 
             {/* Spätburgunder Holzfass trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(11)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Holzfass"
@@ -317,7 +357,7 @@ const Weine = () => {
 
             {/* Spätburgunder Barrique trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(12)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Barrique"
@@ -338,7 +378,7 @@ const Weine = () => {
 
             {/* Alte Reben Riesling Spätlese trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(13)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg"}
                         alt="Loreleyfelsen_Alte_Reben_Riesling_Spätlese_trocken"
@@ -355,6 +395,8 @@ const Weine = () => {
                 </div>
             </div>
 
+
+            {/* Loreley Edel */}
             <div className="weinlinie-header-container">
                 <div className="weinlinie-header-image-container">
                     <ImageImport
@@ -368,10 +410,9 @@ const Weine = () => {
                 </div>
             </div>
 
-
             {/* Riesling Spätlese */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(14)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg"}
                         alt="Loreley_Edel_Riesling_Spätlese"
@@ -381,11 +422,29 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Riesling Spätlese</h1>
                     <p>
-                        Coming soon...
+                        Coming soon... 
+                        
                     </p>
-
                     {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
+            </div>
+
+
+            <div>
+                {isOpen && (
+                    <Lightbox
+                        mainSrc={images[photoIndex]}
+                        nextSrc={images[(photoIndex + 1) % images.length]}
+                        prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+                        onCloseRequest={() => setIsOpen(false)}
+                        onMovePrevRequest={() =>
+                            setPhotoIndex((photoIndex + images.length - 1) % images.length)
+                        }
+                        onMoveNextRequest={() =>
+                            setPhotoIndex((photoIndex + 1) % images.length)
+                        }
+                    />
+                )}
             </div>
 
         </div>
