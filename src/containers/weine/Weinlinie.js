@@ -25,19 +25,21 @@ const images = [
     process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_lieblich.jpg", // Riesling lieblich 2
     process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rose.jpg", // Rose halbtrocken 3
     process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rotling.jpg", // Rotling lieblich 4
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Secco.jpg", // Rotling lieblich 5
 
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg", //Rotschiefer Riesling halbtrocken 5
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg", // Blauschiefer Riesling trocken 6
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg", //Spätburgunder trocken 7
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg", //Weißburgunder trocken 8
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg", //Grauburgunder trocken 9
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg", //Muskateller halbtrocken 10
 
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg", // Spätburgunder Holzfass trocken 11
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg", //Spätburgunder Barique trocken 12
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg", //Alte Reben Riesling 13 
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg", //Rotschiefer Riesling halbtrocken 6
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg", // Blauschiefer Riesling trocken 7
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg", //Spätburgunder trocken 8
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg", //Weißburgunder trocken 9
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg", //Grauburgunder trocken 10
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg", //Muskateller halbtrocken 11
 
-    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg" //Riesling Spätlese trocken 14
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg", // Spätburgunder Holzfass trocken 12
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg", //Spätburgunder Barique trocken 13
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg", //Alte Reben Riesling 14
+
+    process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg" //Riesling Spätlese trocken 15
 ]
 
 
@@ -182,6 +184,26 @@ const Weine = () => {
                 </div>
             </div>
 
+            {/* Secco */}
+            <div className="weinlinie-container textbox">
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(5)}}>
+                    <ImageImport
+                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Secco.jpg"}
+                        alt="Mittelrhein_Secco"
+                        className="weinlinie-image"
+                    />
+                </div>
+                <div className="weinlinie-container-text">
+                    <h1>Secco</h1>
+                    <p>
+                    Der fruchtig-frische Aperitif. Fruchtiges Aroma mit einer feinen Restsüße und ausbalanciertem Säurespiel. 
+                    Gut gekühlt eignet er sich auch perfekt für entspannte Sommertage.
+                    </p>
+
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=FP121" className="weinlinie-button">Zum Shop</Button>
+                </div>
+            </div>
+
 
             {/* Loreley */}
             <div className="weinlinie-header-container">
@@ -199,7 +221,7 @@ const Weine = () => {
 
             {/* Rotschiefer Riesling Kabinett halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(5)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(6)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg"}
                         alt="Loreley_Rotschiefer_Riesling_Kabinett_halbtrocken "
@@ -218,7 +240,7 @@ const Weine = () => {
 
             {/* Blauschiefer Riesling Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(6)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(7)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg"}
                         alt="Loreley_Blauschiefer_Riesling_Kabinett_trocken"
@@ -237,7 +259,7 @@ const Weine = () => {
 
             {/* Spätburgunder QbA trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(7)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(8)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg"}
                         alt="Loreley_Spätburgunder_trocken "
@@ -260,7 +282,7 @@ const Weine = () => {
 
             {/* Weißburgunder Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(8)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(9)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg"}
                         alt="Loreley_Weißburgunder_trocken "
@@ -281,7 +303,7 @@ const Weine = () => {
 
             {/* Grauburgunder Kabinett trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(9)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(10)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg"}
                         alt="Loreley_Grauburgunder_Kabinett_trocken"
@@ -300,7 +322,7 @@ const Weine = () => {
 
             {/* Muskateller QbA trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(10)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(11)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg"}
                         alt="Loreley_Muskateller"
@@ -336,7 +358,7 @@ const Weine = () => {
 
             {/* Spätburgunder Holzfass trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(11)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(12)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Holzfass"
@@ -357,7 +379,7 @@ const Weine = () => {
 
             {/* Spätburgunder Barrique trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(12)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(13)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Barrique"
@@ -378,7 +400,7 @@ const Weine = () => {
 
             {/* Alte Reben Riesling Spätlese trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(13)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(14)}}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg"}
                         alt="Loreleyfelsen_Alte_Reben_Riesling_Spätlese_trocken"
@@ -412,9 +434,9 @@ const Weine = () => {
 
             {/* Riesling Spätlese */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(14)}}>
+                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(15)}}>
                     <ImageImport
-                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg"}
+                        img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg"}
                         alt="Loreley_Edel_Riesling_Spätlese"
                         className="weinlinie-image"
                     />
