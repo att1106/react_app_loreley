@@ -17,8 +17,10 @@
 
 .weinlinie-button {
     background-color: grey !important;
-    width: 120px !important;
+    width: 100px !important;
     border: none !important;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .weine-container {

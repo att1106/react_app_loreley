@@ -98,7 +98,7 @@ const Weine = () => {
                         einer angenehmen Mineralität.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2120" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2120" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ const Weine = () => {
                         und gelben Früchten. Durch das feine mineralische Fruchtspiel mit angenehmer Restsüße wird dem Wein Komplexität verliehen.
                     </p>
 
-                    <Button href=" https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F720" className="weinlinie-button">Zum Shop</Button>
+                    <Button href=" https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F720" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -137,7 +137,7 @@ const Weine = () => {
                         Coming soon...
                     </p>
 
-                    {/* <Button href=" https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F720" className="weinlinie-button">Zum Shop</Button> */}
+                    {/* <Button href=" https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F720" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
             </div>
 
@@ -159,7 +159,7 @@ const Weine = () => {
                         Die angenehme Restsüße sorgt für Trinkfreude.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F11%2F20" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F11%2F20" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -180,7 +180,7 @@ const Weine = () => {
                         Durch seine Restsüße und seine fruchtigen Aromen eignet er sich gut gekühlt für warme Sommertage.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -200,7 +200,7 @@ const Weine = () => {
                     Gut gekühlt eignet er sich auch perfekt für entspannte Sommertage.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=FP121" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=FP121" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -234,7 +234,7 @@ const Weine = () => {
                         Coming soon...
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
             </div>
 
@@ -253,7 +253,7 @@ const Weine = () => {
                         Coming soon...
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
             </div>
 
@@ -274,7 +274,7 @@ const Weine = () => {
                         und Leichtigkeit bei lebendigem Trinkfluss.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F121" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F121" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
 
                 </div>
 
@@ -297,7 +297,7 @@ const Weine = () => {
                         Die Frucht und Finesse steht für sanftes Trinkvergnügen.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F4%2F20" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F4%2F20" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -316,7 +316,7 @@ const Weine = () => {
                         Coming soon...
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
             </div>
 
@@ -337,7 +337,7 @@ const Weine = () => {
                         Am Gaumen spielt die Muskatnuss ein elegantes Spiel, ergänzt von der vollen Frucht gelber Birnen und grünem Apfel.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F820" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F820" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -373,7 +373,7 @@ const Weine = () => {
                         Die ausgewogenen Tannine und der konzentrierte Körper sind das Ergebnis konsequenter Handarbeit.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F7" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F7" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -394,7 +394,7 @@ const Weine = () => {
                         Die ausgewogenen Tannine und der konzentrierte Körper sind das Ergebnis konsequenter Handarbeit.
                     </p>
 
-                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F8" className="weinlinie-button">Zum Shop</Button>
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F8" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -410,10 +410,11 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Alte Reben Riesling Spätlese trocken </h1>
                     <p>
-                        Coming soon...
+                    Über 30 Jahre sind die Rebstöcke alt, von denen die Trauben für diesen Wein stammen. 
+                    Ein feinmundiger und ausgeprägter Riesling. Ausbalanciert und komplex mit angenehmer Reife.
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F1020" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
@@ -447,7 +448,7 @@ const Weine = () => {
                         Coming soon... 
                         
                     </p>
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" className="weinlinie-button">Zum Shop</Button> */}
+                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
             </div>
 

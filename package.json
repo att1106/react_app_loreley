@@ -1,10 +1,10 @@
 {
-  "name": "leonhard-website",
+  "name": "loreley-kellerei-website",
   "version": "1.0.0",
+  "homepage": "https://www.loreley-kellerei.de/",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://att1106.github.io/react_app_loreley",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -12,6 +12,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^4.5.3",
+    "firebase-admin": "^9.6.0",
+    "firebase-functions": "^3.13.2",
     "react": "16.8.6",
     "react-bootstrap": "^1.4.3",
     "react-dom": "16.8.6",
@@ -31,8 +33,6 @@
     "url-loader": "^4.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
