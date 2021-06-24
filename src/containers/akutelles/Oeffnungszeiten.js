@@ -14,19 +14,19 @@ const Oeffnungszeiten = () => {
                 <p className="info-textbox">Unsere aktuellen Öffnungszeiten:</p>
                 <p>Weingut:</p>
                 <ul className="oeffnungszeiten-list">
-                    <li>Mo.-Fr. 9 Uhr bis 17.30 Uhr</li>
-                    <li>Sa. 9 Uhr bis 13 Uhr</li>
-                    <li>So. nach Vereinbarung</li>
+                    <li>Mo.- Sa. 9 Uhr bis 12 Uhr</li>
+                    <li>Nastätter Straße 9, 56346 St. Goarshausen</li>
+                    {/* <li>Sa. 9 Uhr bis 13 Uhr</li>
+                    <li>So. nach Vereinbarung</li> */}
                 </ul>
 
                 <p>Vinothek:</p>
                 <ul className="oeffnungszeiten-list">
-                    <li>Wegen Corona ist unsere Vinothek aktuell leider geschlossen. 
-                    <br/>
-                    Gerne empfangen wir Sie in unserem Weingut.</li>
+                    <li>Mo.- So. 13 Uhr bis 17:30 Uhr</li>
+                    <li>Bahnhofstraße 4, 56346 Sankt Goarshausen</li>
                 </ul>
                 <p>
-                Online-Shop:
+                    Online-Shop:
                 </p>
                 <ul className="oeffnungszeiten-list">
                     <li>Unser Online-Shop ist rund um die Uhr für Sie geöffnet.</li>

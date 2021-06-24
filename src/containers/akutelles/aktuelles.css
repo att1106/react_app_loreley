@@ -3,6 +3,40 @@
     background-position: center center;
 }
 
+
+/* Hoffest */
+/* .hoffest{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.hoffest p{
+    text-align: justify;
+    margin-right: 0;
+    margin-left: 0;
+}
+.hoffest-button{
+    background-color: grey !important;
+    border-color: grey !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hoffest-image-container{
+    flex-direction: row;
+    max-width: 80%;
+    margin: 3vh auto;
+    padding: 0% 10%;
+}
+.hoffest-image{
+    width: 40%;
+    height: 100%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+} */
+
+
 /* Termine */
 #termine {
     position: relative;
@@ -21,6 +55,25 @@
 .oeffnungszeiten-list {
     list-style-type:none;
 }
+
+/* only Hoffest */
+/* @media only screen and (max-width: 480px) {
+    .hoffest{
+        flex-direction: column;
+    }
+    .hoffest-image-container{
+        flex-direction: column;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        height: fit-content;
+    }
+    .hoffest-image{
+        width: 90%;
+        height: auto;
+        margin-top: 2vw;
+    }
+} */
 
 /* Mobile and Tablet max. 1024px */
 @media only screen and (max-width: 1024px) {

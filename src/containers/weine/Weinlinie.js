@@ -9,10 +9,10 @@ import ImageImport from "../../components/structure/ImageImport";
 import Button from 'react-bootstrap/Button';
 
 const mittelrhein_riesling_trocken = <ImageImport
-key = {0}
-img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg"}
-alt="Mittelrhein_Riesling_trocken"
-className="weinlinie-image"
+    key={0}
+    img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg"}
+    alt="Mittelrhein_Riesling_trocken"
+    className="weinlinie-image"
 />
 
 // const wein_images = [
@@ -82,7 +82,7 @@ const Weine = () => {
 
             {/* Mittelrhein Riesling QbA trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(0)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(0) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_trocken.jpg"}
                         alt="Mittelrhein_Riesling_trocken"
@@ -104,7 +104,7 @@ const Weine = () => {
 
             {/* Mittelrhein Riesling QbA halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(1)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(1) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_halbtrocken.jpg"}
                         alt="Mittelrhein_Riesling_halbtrocken"
@@ -124,7 +124,7 @@ const Weine = () => {
 
             {/* Mittelrhein Riesling Qba lieblich */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(2)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(2) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Riesling_lieblich.jpg"}
                         alt="Mittelrhein_Riesling_lieblich"
@@ -143,7 +143,7 @@ const Weine = () => {
 
             {/* Rosé QbA halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(3)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(3) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rose.jpg"}
                         alt="Mittelrhein_Rose"
@@ -165,7 +165,7 @@ const Weine = () => {
 
             {/* Rotling QbA lieblich */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(4)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(4) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Rotling.jpg"}
                         alt="Mittelrhein_Rotling"
@@ -186,7 +186,7 @@ const Weine = () => {
 
             {/* Secco */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(5)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(5) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Mittelrhein_Secco.jpg"}
                         alt="Mittelrhein_Secco"
@@ -196,8 +196,8 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Secco</h1>
                     <p>
-                    Der fruchtig-frische Aperitif. Fruchtiges Aroma mit einer feinen Restsüße und ausbalanciertem Säurespiel. 
-                    Gut gekühlt eignet er sich auch perfekt für entspannte Sommertage.
+                        Der fruchtig-frische Aperitif. Fruchtiges Aroma mit einer feinen Restsüße und ausbalanciertem Säurespiel.
+                        Gut gekühlt eignet er sich auch perfekt für entspannte Sommertage.
                     </p>
 
                     <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=FP121" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
@@ -221,7 +221,7 @@ const Weine = () => {
 
             {/* Rotschiefer Riesling Kabinett halbtrocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(6)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(6) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Rotschiefer_halbtrocken.jpg"}
                         alt="Loreley_Rotschiefer_Riesling_Kabinett_halbtrocken "
@@ -231,16 +231,17 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Rotschiefer Riesling Kabinett halbtrocken</h1>
                     <p>
-                        Coming soon...
+                        In der Nase überzeugt der Wein mit schönen Fruchtnoten von reifen gelben Früchten, Apfel und Aprikose. Am Gaumen kräftig, vollmundig mit würzigen Kräuternoten.
+                        Saftig und kräftig garantiert dieser Wein ein intensives Geschmackserlebnis.
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F1620" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
             {/* Blauschiefer Riesling Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(7)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(7) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Blauschiefer_trocken.jpg"}
                         alt="Loreley_Blauschiefer_Riesling_Kabinett_trocken"
@@ -250,16 +251,17 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Blauschiefer Riesling Kabinett trocken</h1>
                     <p>
-                        Coming soon...
+                        Im Glas präsentiert sich der Riesling Strohgelb. In der Nase besticht er mit einer Zitrus-Apfelaromatik und einer schönen Würze. Durch das feine mineralische Fruchtspiel und der typischen Schiefermineralik wird dem Wein Komplexität verliehen.
+                        Der Riesling ist der perfekte Vertreter für die Sonnenverwöhnten Steillagen des Mittelrheintals.
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F1420" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
             {/* Spätburgunder QbA trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(8)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(8) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Spaetburgunder_trocken.jpg"}
                         alt="Loreley_Spätburgunder_trocken "
@@ -282,7 +284,7 @@ const Weine = () => {
 
             {/* Weißburgunder Kabinett trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(9)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(9) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Weißburgunder_trocken.jpg"}
                         alt="Loreley_Weißburgunder_trocken "
@@ -303,7 +305,7 @@ const Weine = () => {
 
             {/* Grauburgunder Kabinett trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(10)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(10) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Grauburgunder_trocken.jpg"}
                         alt="Loreley_Grauburgunder_Kabinett_trocken"
@@ -313,16 +315,17 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Grauburgunder Kabinett trocken </h1>
                     <p>
-                        Coming soon...
+                        In der Nase ist der Grauburgunder fruchtig und würzig zugleich.
+                        Ein eleganter Burgunder mit einem harmonischen Zusammenspiel der Aromen und ausbalanciertem Säurespiel.
                     </p>
 
-                    {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
+                    <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F321" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
                 </div>
             </div>
 
             {/* Muskateller QbA trocken  */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(11)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(11) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreley_Muskateller.jpg"}
                         alt="Loreley_Muskateller"
@@ -358,7 +361,7 @@ const Weine = () => {
 
             {/* Spätburgunder Holzfass trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(12)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(12) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Holzfass.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Holzfass"
@@ -379,7 +382,7 @@ const Weine = () => {
 
             {/* Spätburgunder Barrique trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(13)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(13) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Spaetburgunder_Barrique.jpg"}
                         alt="Loreleyfelsen_Spaetburgunder_Barrique"
@@ -400,7 +403,7 @@ const Weine = () => {
 
             {/* Alte Reben Riesling Spätlese trocken */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(14)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(14) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg"}
                         alt="Loreleyfelsen_Alte_Reben_Riesling_Spätlese_trocken"
@@ -410,8 +413,8 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Alte Reben Riesling Spätlese trocken </h1>
                     <p>
-                    Über 30 Jahre sind die Rebstöcke alt, von denen die Trauben für diesen Wein stammen. 
-                    Ein feinmundiger und ausgeprägter Riesling. Ausbalanciert und komplex mit angenehmer Reife.
+                        Über 30 Jahre sind die Rebstöcke alt, von denen die Trauben für diesen Wein stammen.
+                        Ein feinmundiger und ausgeprägter Riesling. Ausbalanciert und komplex mit angenehmer Reife.
                     </p>
 
                     <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F1020" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button>
@@ -435,7 +438,7 @@ const Weine = () => {
 
             {/* Riesling Spätlese */}
             <div className="weinlinie-container textbox">
-                <div className="weinlinie-container-image" onClick={() => {setIsOpen(true), setPhotoIndex(15)}}>
+                <div className="weinlinie-container-image" onClick={() => { setIsOpen(true), setPhotoIndex(15) }}>
                     <ImageImport
                         img={process.env.PUBLIC_URL + "/img/Weine_Weinlinie_Loreleyfelsen_Alte_Reben_Riesling.jpg"}
                         alt="Loreley_Edel_Riesling_Spätlese"
@@ -445,8 +448,8 @@ const Weine = () => {
                 <div className="weinlinie-container-text">
                     <h1>Riesling Spätlese</h1>
                     <p>
-                        Coming soon... 
-                        
+                        Coming soon...
+
                     </p>
                     {/* <Button href="https://loreley-kellerei.winitas-shop.de/artikel.html?artnr=F2320" target="_blank" rel="noopener noreferrer" className="weinlinie-button">Zum Shop</Button> */}
                 </div>
